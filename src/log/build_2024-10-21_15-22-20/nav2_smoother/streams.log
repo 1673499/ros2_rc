@@ -1,0 +1,69 @@
+[0.208s] Invoking command in '/home/ros2/ros2_rc/src/build/nav2_smoother': AMENT_PREFIX_PATH=/home/ros2/ros2_rc/src/install/nav2_core:/home/ros2/ros2_rc/src/install/nav2_costmap_2d:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/ros2_rc/src/install/nav2_core:/home/ros2/ros2_rc/src/install/nav2_costmap_2d:/home/ros2/ros2_rc/src/install/nav_2d_utils:/home/ros2/ros2_rc/src/install/nav2_map_server:/home/ros2/ros2_rc/src/install/nav2_lifecycle_manager:/home/ros2/ros2_rc/src/install/nav2_util:/home/ros2/ros2_rc/src/install/nav2_voxel_grid:/home/ros2/ros2_rc/src/install/nav2_msgs:/home/ros2/ros2_rc/src/install/nav_2d_msgs:/home/ros2/ros2_rc/src/install/nav2_common:/home/ros2/ros2_rc/src/install/smartcar_msgs:/home/ros2/ros2_rc/src/install/smart_car:/home/ros2/ros2_rc/src/install/ros2_rc:/home/ros2/ros2_rc/src/install/dwb_msgs:/home/ros2/ros2_rc/src/install/nav2_velocity_smoother:/home/ros2/ros2_rc/src/install/nav2_rviz_plugins:/home/ros2/ros2_rc/src/install/nav2_amcl:/home/ros2/ros2_rc/src/install/car_gazebo_plugin:/home/ros2/ros2_rc/src/install/nav2_simple_commander:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/ros2_rc/src/install/nav2_costmap_2d/lib:/home/ros2/ros2_rc/src/install/nav_2d_utils/lib:/home/ros2/ros2_rc/src/install/nav2_map_server/lib:/home/ros2/ros2_rc/src/install/nav2_lifecycle_manager/lib:/home/ros2/ros2_rc/src/install/nav2_util/lib:/home/ros2/ros2_rc/src/install/nav2_voxel_grid/lib:/home/ros2/ros2_rc/src/install/nav2_msgs/lib:/home/ros2/ros2_rc/src/install/nav_2d_msgs/lib:/home/ros2/ros2_rc/src/install/smartcar_msgs/lib:/home/ros2/ros2_rc/src/install/dwb_msgs/lib:/home/ros2/ros2_rc/src/install/nav2_velocity_smoother/lib:/home/ros2/ros2_rc/src/install/nav2_rviz_plugins/lib:/home/ros2/ros2_rc/src/install/nav2_amcl/lib:/home/ros2/ros2_rc/src/install/car_gazebo_plugin/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake /home/ros2/ros2_rc/src/navigation2/nav2_smoother -DCMAKE_INSTALL_PREFIX=/home/ros2/ros2_rc/src/install/nav2_smoother
+[3.131s] -- The C compiler identification is GNU 11.4.0
+[3.131s] -- The CXX compiler identification is GNU 11.4.0
+[3.131s] -- Detecting C compiler ABI info
+[3.131s] -- Detecting C compiler ABI info - done
+[3.131s] -- Check for working C compiler: /usr/lib/ccache/gcc - skipped
+[3.131s] -- Detecting C compile features
+[3.131s] -- Detecting C compile features - done
+[3.131s] -- Detecting CXX compiler ABI info
+[3.131s] -- Detecting CXX compiler ABI info - done
+[3.131s] -- Check for working CXX compiler: /usr/lib/ccache/g++ - skipped
+[3.131s] -- Detecting CXX compile features
+[3.132s] -- Detecting CXX compile features - done
+[3.132s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.132s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.334s] -- Found nav2_core: 1.1.16 (/home/ros2/ros2_rc/src/install/nav2_core/share/nav2_core/cmake)
+[3.499s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.533s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.556s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.590s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.645s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.775s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.794s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[3.848s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[3.874s] -- Looking for pthread.h
+[4.154s] -- Looking for pthread.h - found
+[4.154s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.484s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.484s] -- Found Threads: TRUE  
+[5.232s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[5.242s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[5.510s] -- Found nav2_common: 1.1.16 (/home/ros2/ros2_rc/src/install/nav2_common/share/nav2_common/cmake)
+[5.511s] -- Found nav_2d_utils: 1.1.16 (/home/ros2/ros2_rc/src/install/nav_2d_utils/share/nav_2d_utils/cmake)
+[5.576s] -- Setting build type to Release as none was specified.
+[6.678s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[7.015s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[7.873s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[7.876s] -- Configured cppcheck include dirs: /home/ros2/ros2_rc/src/navigation2/nav2_smoother/include
+[7.876s] -- Configured cppcheck exclude dirs and/or files: 
+[7.881s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[7.881s] -- Configured cpplint exclude dirs and/or files: 
+[7.882s] -- Added test 'lint_cmake' to check CMake code style
+[7.885s] -- Added test 'uncrustify' to check C / C++ code style
+[7.886s] -- Configured uncrustify additional arguments: 
+[7.887s] -- Added test 'xmllint' to check XML markup files
+[7.900s] -- Configuring done
+[8.600s] -- Generating done
+[8.607s] -- Build files have been written to: /home/ros2/ros2_rc/src/build/nav2_smoother
+[8.777s] Invoked command in '/home/ros2/ros2_rc/src/build/nav2_smoother' returned '0': AMENT_PREFIX_PATH=/home/ros2/ros2_rc/src/install/nav2_core:/home/ros2/ros2_rc/src/install/nav2_costmap_2d:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/ros2_rc/src/install/nav2_core:/home/ros2/ros2_rc/src/install/nav2_costmap_2d:/home/ros2/ros2_rc/src/install/nav_2d_utils:/home/ros2/ros2_rc/src/install/nav2_map_server:/home/ros2/ros2_rc/src/install/nav2_lifecycle_manager:/home/ros2/ros2_rc/src/install/nav2_util:/home/ros2/ros2_rc/src/install/nav2_voxel_grid:/home/ros2/ros2_rc/src/install/nav2_msgs:/home/ros2/ros2_rc/src/install/nav_2d_msgs:/home/ros2/ros2_rc/src/install/nav2_common:/home/ros2/ros2_rc/src/install/smartcar_msgs:/home/ros2/ros2_rc/src/install/smart_car:/home/ros2/ros2_rc/src/install/ros2_rc:/home/ros2/ros2_rc/src/install/dwb_msgs:/home/ros2/ros2_rc/src/install/nav2_velocity_smoother:/home/ros2/ros2_rc/src/install/nav2_rviz_plugins:/home/ros2/ros2_rc/src/install/nav2_amcl:/home/ros2/ros2_rc/src/install/car_gazebo_plugin:/home/ros2/ros2_rc/src/install/nav2_simple_commander:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/ros2_rc/src/install/nav2_costmap_2d/lib:/home/ros2/ros2_rc/src/install/nav_2d_utils/lib:/home/ros2/ros2_rc/src/install/nav2_map_server/lib:/home/ros2/ros2_rc/src/install/nav2_lifecycle_manager/lib:/home/ros2/ros2_rc/src/install/nav2_util/lib:/home/ros2/ros2_rc/src/install/nav2_voxel_grid/lib:/home/ros2/ros2_rc/src/install/nav2_msgs/lib:/home/ros2/ros2_rc/src/install/nav_2d_msgs/lib:/home/ros2/ros2_rc/src/install/smartcar_msgs/lib:/home/ros2/ros2_rc/src/install/dwb_msgs/lib:/home/ros2/ros2_rc/src/install/nav2_velocity_smoother/lib:/home/ros2/ros2_rc/src/install/nav2_rviz_plugins/lib:/home/ros2/ros2_rc/src/install/nav2_amcl/lib:/home/ros2/ros2_rc/src/install/car_gazebo_plugin/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake /home/ros2/ros2_rc/src/navigation2/nav2_smoother -DCMAKE_INSTALL_PREFIX=/home/ros2/ros2_rc/src/install/nav2_smoother
+[8.856s] Invoking command in '/home/ros2/ros2_rc/src/build/nav2_smoother': AMENT_PREFIX_PATH=/home/ros2/ros2_rc/src/install/nav2_core:/home/ros2/ros2_rc/src/install/nav2_costmap_2d:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/ros2_rc/src/install/nav2_core:/home/ros2/ros2_rc/src/install/nav2_costmap_2d:/home/ros2/ros2_rc/src/install/nav_2d_utils:/home/ros2/ros2_rc/src/install/nav2_map_server:/home/ros2/ros2_rc/src/install/nav2_lifecycle_manager:/home/ros2/ros2_rc/src/install/nav2_util:/home/ros2/ros2_rc/src/install/nav2_voxel_grid:/home/ros2/ros2_rc/src/install/nav2_msgs:/home/ros2/ros2_rc/src/install/nav_2d_msgs:/home/ros2/ros2_rc/src/install/nav2_common:/home/ros2/ros2_rc/src/install/smartcar_msgs:/home/ros2/ros2_rc/src/install/smart_car:/home/ros2/ros2_rc/src/install/ros2_rc:/home/ros2/ros2_rc/src/install/dwb_msgs:/home/ros2/ros2_rc/src/install/nav2_velocity_smoother:/home/ros2/ros2_rc/src/install/nav2_rviz_plugins:/home/ros2/ros2_rc/src/install/nav2_amcl:/home/ros2/ros2_rc/src/install/car_gazebo_plugin:/home/ros2/ros2_rc/src/install/nav2_simple_commander:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/ros2_rc/src/install/nav2_costmap_2d/lib:/home/ros2/ros2_rc/src/install/nav_2d_utils/lib:/home/ros2/ros2_rc/src/install/nav2_map_server/lib:/home/ros2/ros2_rc/src/install/nav2_lifecycle_manager/lib:/home/ros2/ros2_rc/src/install/nav2_util/lib:/home/ros2/ros2_rc/src/install/nav2_voxel_grid/lib:/home/ros2/ros2_rc/src/install/nav2_msgs/lib:/home/ros2/ros2_rc/src/install/nav_2d_msgs/lib:/home/ros2/ros2_rc/src/install/smartcar_msgs/lib:/home/ros2/ros2_rc/src/install/dwb_msgs/lib:/home/ros2/ros2_rc/src/install/nav2_velocity_smoother/lib:/home/ros2/ros2_rc/src/install/nav2_rviz_plugins/lib:/home/ros2/ros2_rc/src/install/nav2_amcl/lib:/home/ros2/ros2_rc/src/install/car_gazebo_plugin/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/ros2/ros2_rc/src/build/nav2_smoother -- -j9 -l9
+[8.980s] [  5%] [32mBuilding CXX object CMakeFiles/simple_smoother.dir/src/simple_smoother.cpp.o[0m
+[8.993s] [ 11%] [32mBuilding CXX object CMakeFiles/smoother_server_core.dir/src/nav2_smoother.cpp.o[0m
+[8.997s] [ 16%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[9.014s] [ 22%] [32mBuilding CXX object CMakeFiles/savitzky_golay_smoother.dir/src/savitzky_golay_smoother.cpp.o[0m
+[9.024s] [ 27%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[9.675s] [ 33%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[9.714s] [ 38%] [32m[1mLinking CXX static library libgtest.a[0m
+[9.852s] [ 38%] Built target gtest_main
+[9.948s] [ 38%] Built target gtest
+[30.803s] [ 44%] [32m[1mLinking CXX shared library libsavitzky_golay_smoother.so[0m
+[32.260s] [ 50%] [32m[1mLinking CXX shared library libsimple_smoother.so[0m
+[32.592s] [ 50%] Built target savitzky_golay_smoother
+[35.309s] [ 50%] Built target simple_smoother
+[56.304s] [ 55%] [32m[1mLinking CXX shared library libsmoother_server_core.so[0m
+[57.936s] [ 55%] Built target smoother_server_core
+[58.034s] [ 61%] [32mBuilding CXX object test/CMakeFiles/test_simple_smoother.dir/test_simple_smoother.cpp.o[0m
+[71.323s] [ 66%] [32m[1mLinking CXX executable test_simple_smoother[0m
+[72.683s] [ 66%] Built target test_simple_smoother
+[72.760s] [ 72%] [32mBuilding CXX object test/CMakeFiles/test_smoother_server.dir/test_smoother_server.cpp.o[0m

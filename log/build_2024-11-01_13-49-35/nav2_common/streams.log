@@ -1,0 +1,48 @@
+[0.126s] Invoking command in '/home/ros2/ros2_rc/build/nav2_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/ros2_rc/install/nav2_simple_commander:/home/ros2/ros2_rc/src/install/nav2_simple_commander:/opt/ros/humble /usr/bin/cmake --build /home/ros2/ros2_rc/build/nav2_common -- -j10 -l10
+[0.347s] Built target ament_cmake_python_copy_nav2_common
+[1.055s] running egg_info
+[1.055s] writing nav2_common.egg-info/PKG-INFO
+[1.058s] writing dependency_links to nav2_common.egg-info/dependency_links.txt
+[1.059s] writing top-level names to nav2_common.egg-info/top_level.txt
+[1.063s] reading manifest file 'nav2_common.egg-info/SOURCES.txt'
+[1.066s] writing manifest file 'nav2_common.egg-info/SOURCES.txt'
+[1.165s] Built target ament_cmake_python_build_nav2_common_egg
+[1.200s] Invoked command in '/home/ros2/ros2_rc/build/nav2_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/ros2_rc/install/nav2_simple_commander:/home/ros2/ros2_rc/src/install/nav2_simple_commander:/opt/ros/humble /usr/bin/cmake --build /home/ros2/ros2_rc/build/nav2_common -- -j10 -l10
+[1.289s] Invoking command in '/home/ros2/ros2_rc/build/nav2_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/ros2_rc/install/nav2_simple_commander:/home/ros2/ros2_rc/src/install/nav2_simple_commander:/opt/ros/humble /usr/bin/cmake --install /home/ros2/ros2_rc/build/nav2_common
+[1.319s] -- Install configuration: ""
+[1.319s] -- Up-to-date: /home/ros2/ros2_rc/install/nav2_common/share/nav2_common/environment/pythonpath.sh
+[1.320s] -- Up-to-date: /home/ros2/ros2_rc/install/nav2_common/share/nav2_common/environment/pythonpath.dsv
+[1.320s] -- Up-to-date: /home/ros2/ros2_rc/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common-1.1.16-py3.10.egg-info
+[1.320s] -- Installing: /home/ros2/ros2_rc/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common-1.1.16-py3.10.egg-info/SOURCES.txt
+[1.320s] -- Installing: /home/ros2/ros2_rc/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common-1.1.16-py3.10.egg-info/PKG-INFO
+[1.321s] -- Installing: /home/ros2/ros2_rc/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common-1.1.16-py3.10.egg-info/top_level.txt
+[1.321s] -- Installing: /home/ros2/ros2_rc/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common-1.1.16-py3.10.egg-info/dependency_links.txt
+[1.322s] -- Up-to-date: /home/ros2/ros2_rc/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common
+[1.322s] -- Up-to-date: /home/ros2/ros2_rc/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/__init__.py
+[1.322s] -- Up-to-date: /home/ros2/ros2_rc/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/launch
+[1.322s] -- Up-to-date: /home/ros2/ros2_rc/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/launch/__init__.py
+[1.322s] -- Up-to-date: /home/ros2/ros2_rc/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/launch/rewritten_yaml.py
+[1.323s] -- Up-to-date: /home/ros2/ros2_rc/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/launch/has_node_params.py
+[1.323s] -- Up-to-date: /home/ros2/ros2_rc/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/launch/parse_multirobot_pose.py
+[1.323s] -- Up-to-date: /home/ros2/ros2_rc/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/launch/replace_string.py
+[1.390s] Listing '/home/ros2/ros2_rc/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common'...
+[1.390s] Listing '/home/ros2/ros2_rc/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/launch'...
+[1.405s] -- Up-to-date: /home/ros2/ros2_rc/install/nav2_common/share/ament_index/resource_index/package_run_dependencies/nav2_common
+[1.405s] -- Up-to-date: /home/ros2/ros2_rc/install/nav2_common/share/ament_index/resource_index/parent_prefix_path/nav2_common
+[1.405s] -- Up-to-date: /home/ros2/ros2_rc/install/nav2_common/share/nav2_common/environment/ament_prefix_path.sh
+[1.406s] -- Up-to-date: /home/ros2/ros2_rc/install/nav2_common/share/nav2_common/environment/ament_prefix_path.dsv
+[1.407s] -- Up-to-date: /home/ros2/ros2_rc/install/nav2_common/share/nav2_common/environment/path.sh
+[1.408s] -- Up-to-date: /home/ros2/ros2_rc/install/nav2_common/share/nav2_common/environment/path.dsv
+[1.408s] -- Up-to-date: /home/ros2/ros2_rc/install/nav2_common/share/nav2_common/local_setup.bash
+[1.408s] -- Up-to-date: /home/ros2/ros2_rc/install/nav2_common/share/nav2_common/local_setup.sh
+[1.408s] -- Up-to-date: /home/ros2/ros2_rc/install/nav2_common/share/nav2_common/local_setup.zsh
+[1.409s] -- Up-to-date: /home/ros2/ros2_rc/install/nav2_common/share/nav2_common/local_setup.dsv
+[1.409s] -- Installing: /home/ros2/ros2_rc/install/nav2_common/share/nav2_common/package.dsv
+[1.409s] -- Up-to-date: /home/ros2/ros2_rc/install/nav2_common/share/ament_index/resource_index/packages/nav2_common
+[1.410s] -- Up-to-date: /home/ros2/ros2_rc/install/nav2_common/share/nav2_common/cmake/nav2_common-extras.cmake
+[1.410s] -- Up-to-date: /home/ros2/ros2_rc/install/nav2_common/share/nav2_common/cmake/nav2_commonConfig.cmake
+[1.412s] -- Up-to-date: /home/ros2/ros2_rc/install/nav2_common/share/nav2_common/cmake/nav2_commonConfig-version.cmake
+[1.413s] -- Up-to-date: /home/ros2/ros2_rc/install/nav2_common/share/nav2_common/package.xml
+[1.414s] -- Up-to-date: /home/ros2/ros2_rc/install/nav2_common/share/nav2_common/cmake
+[1.420s] -- Up-to-date: /home/ros2/ros2_rc/install/nav2_common/share/nav2_common/cmake/nav2_package.cmake
+[1.422s] Invoked command in '/home/ros2/ros2_rc/build/nav2_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/ros2_rc/install/nav2_simple_commander:/home/ros2/ros2_rc/src/install/nav2_simple_commander:/opt/ros/humble /usr/bin/cmake --install /home/ros2/ros2_rc/build/nav2_common

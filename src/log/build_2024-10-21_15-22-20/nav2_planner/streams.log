@@ -1,0 +1,106 @@
+[0.107s] Invoking command in '/home/ros2/ros2_rc/src/build/nav2_planner': AMENT_PREFIX_PATH=/home/ros2/ros2_rc/src/install/nav2_core:/home/ros2/ros2_rc/src/install/nav2_costmap_2d:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/ros2_rc/src/install/nav2_core:/home/ros2/ros2_rc/src/install/nav2_costmap_2d:/home/ros2/ros2_rc/src/install/nav2_map_server:/home/ros2/ros2_rc/src/install/nav2_lifecycle_manager:/home/ros2/ros2_rc/src/install/nav2_util:/home/ros2/ros2_rc/src/install/nav2_voxel_grid:/home/ros2/ros2_rc/src/install/nav2_msgs:/home/ros2/ros2_rc/src/install/nav2_common:/home/ros2/ros2_rc/src/install/smartcar_msgs:/home/ros2/ros2_rc/src/install/smart_car:/home/ros2/ros2_rc/src/install/ros2_rc:/home/ros2/ros2_rc/src/install/nav_2d_utils:/home/ros2/ros2_rc/src/install/dwb_msgs:/home/ros2/ros2_rc/src/install/nav_2d_msgs:/home/ros2/ros2_rc/src/install/nav2_velocity_smoother:/home/ros2/ros2_rc/src/install/nav2_rviz_plugins:/home/ros2/ros2_rc/src/install/nav2_amcl:/home/ros2/ros2_rc/src/install/car_gazebo_plugin:/home/ros2/ros2_rc/src/install/nav2_simple_commander:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/ros2_rc/src/install/nav2_costmap_2d/lib:/home/ros2/ros2_rc/src/install/nav2_map_server/lib:/home/ros2/ros2_rc/src/install/nav2_lifecycle_manager/lib:/home/ros2/ros2_rc/src/install/nav2_util/lib:/home/ros2/ros2_rc/src/install/nav2_voxel_grid/lib:/home/ros2/ros2_rc/src/install/nav2_msgs/lib:/home/ros2/ros2_rc/src/install/smartcar_msgs/lib:/home/ros2/ros2_rc/src/install/nav_2d_utils/lib:/home/ros2/ros2_rc/src/install/dwb_msgs/lib:/home/ros2/ros2_rc/src/install/nav_2d_msgs/lib:/home/ros2/ros2_rc/src/install/nav2_velocity_smoother/lib:/home/ros2/ros2_rc/src/install/nav2_rviz_plugins/lib:/home/ros2/ros2_rc/src/install/nav2_amcl/lib:/home/ros2/ros2_rc/src/install/car_gazebo_plugin/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake /home/ros2/ros2_rc/src/navigation2/nav2_planner -DCMAKE_INSTALL_PREFIX=/home/ros2/ros2_rc/src/install/nav2_planner
+[14.306s] -- The C compiler identification is GNU 11.4.0
+[14.306s] -- The CXX compiler identification is GNU 11.4.0
+[14.306s] -- Detecting C compiler ABI info
+[14.306s] -- Detecting C compiler ABI info - done
+[14.306s] -- Check for working C compiler: /usr/lib/ccache/gcc - skipped
+[14.306s] -- Detecting C compile features
+[14.306s] -- Detecting C compile features - done
+[14.306s] -- Detecting CXX compiler ABI info
+[14.307s] -- Detecting CXX compiler ABI info - done
+[14.307s] -- Check for working CXX compiler: /usr/lib/ccache/g++ - skipped
+[14.307s] -- Detecting CXX compile features
+[14.307s] -- Detecting CXX compile features - done
+[14.307s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[14.307s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[14.307s] -- Found nav2_common: 1.1.16 (/home/ros2/ros2_rc/src/install/nav2_common/share/nav2_common/cmake)
+[14.307s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[14.307s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[14.307s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[14.307s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[14.307s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[14.308s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[14.308s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[14.308s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[14.308s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[14.308s] -- Looking for pthread.h
+[14.308s] -- Looking for pthread.h - found
+[14.308s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[14.308s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[14.308s] -- Found Threads: TRUE  
+[14.308s] -- Found rclcpp_action: 16.0.10 (/opt/ros/humble/share/rclcpp_action/cmake)
+[14.309s] -- Found rclcpp_lifecycle: 16.0.10 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[14.309s] -- Found rclcpp_components: 16.0.10 (/opt/ros/humble/share/rclcpp_components/cmake)
+[14.309s] -- Found visualization_msgs: 4.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)
+[14.309s] -- Found nav2_util: 1.1.16 (/home/ros2/ros2_rc/src/install/nav2_util/share/nav2_util/cmake)
+[14.309s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[14.309s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[14.309s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[14.309s] -- Found nav2_costmap_2d: 1.1.16 (/home/ros2/ros2_rc/src/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake)
+[14.309s] -- Found nav2_core: 1.1.16 (/home/ros2/ros2_rc/src/install/nav2_core/share/nav2_core/cmake)
+[14.309s] -- Setting build type to Release as none was specified.
+[14.309s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[14.310s] -- Found ament_cmake_gtest: 1.3.10 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[14.310s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[14.310s] -- Added test 'copyright' to check source files copyright and LICENSE
+[14.310s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[14.310s] -- Configured cppcheck include dirs: /home/ros2/ros2_rc/src/navigation2/nav2_planner/include
+[14.310s] -- Configured cppcheck exclude dirs and/or files: 
+[14.310s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[14.310s] -- Configured cpplint exclude dirs and/or files: 
+[14.310s] -- Added test 'lint_cmake' to check CMake code style
+[14.310s] -- Added test 'uncrustify' to check C / C++ code style
+[14.310s] -- Configured uncrustify additional arguments: 
+[14.311s] -- Added test 'xmllint' to check XML markup files
+[14.311s] -- Configuring done
+[14.311s] -- Generating done
+[14.311s] -- Build files have been written to: /home/ros2/ros2_rc/src/build/nav2_planner
+[14.327s] Invoked command in '/home/ros2/ros2_rc/src/build/nav2_planner' returned '0': AMENT_PREFIX_PATH=/home/ros2/ros2_rc/src/install/nav2_core:/home/ros2/ros2_rc/src/install/nav2_costmap_2d:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/ros2_rc/src/install/nav2_core:/home/ros2/ros2_rc/src/install/nav2_costmap_2d:/home/ros2/ros2_rc/src/install/nav2_map_server:/home/ros2/ros2_rc/src/install/nav2_lifecycle_manager:/home/ros2/ros2_rc/src/install/nav2_util:/home/ros2/ros2_rc/src/install/nav2_voxel_grid:/home/ros2/ros2_rc/src/install/nav2_msgs:/home/ros2/ros2_rc/src/install/nav2_common:/home/ros2/ros2_rc/src/install/smartcar_msgs:/home/ros2/ros2_rc/src/install/smart_car:/home/ros2/ros2_rc/src/install/ros2_rc:/home/ros2/ros2_rc/src/install/nav_2d_utils:/home/ros2/ros2_rc/src/install/dwb_msgs:/home/ros2/ros2_rc/src/install/nav_2d_msgs:/home/ros2/ros2_rc/src/install/nav2_velocity_smoother:/home/ros2/ros2_rc/src/install/nav2_rviz_plugins:/home/ros2/ros2_rc/src/install/nav2_amcl:/home/ros2/ros2_rc/src/install/car_gazebo_plugin:/home/ros2/ros2_rc/src/install/nav2_simple_commander:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/ros2_rc/src/install/nav2_costmap_2d/lib:/home/ros2/ros2_rc/src/install/nav2_map_server/lib:/home/ros2/ros2_rc/src/install/nav2_lifecycle_manager/lib:/home/ros2/ros2_rc/src/install/nav2_util/lib:/home/ros2/ros2_rc/src/install/nav2_voxel_grid/lib:/home/ros2/ros2_rc/src/install/nav2_msgs/lib:/home/ros2/ros2_rc/src/install/smartcar_msgs/lib:/home/ros2/ros2_rc/src/install/nav_2d_utils/lib:/home/ros2/ros2_rc/src/install/dwb_msgs/lib:/home/ros2/ros2_rc/src/install/nav_2d_msgs/lib:/home/ros2/ros2_rc/src/install/nav2_velocity_smoother/lib:/home/ros2/ros2_rc/src/install/nav2_rviz_plugins/lib:/home/ros2/ros2_rc/src/install/nav2_amcl/lib:/home/ros2/ros2_rc/src/install/car_gazebo_plugin/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake /home/ros2/ros2_rc/src/navigation2/nav2_planner -DCMAKE_INSTALL_PREFIX=/home/ros2/ros2_rc/src/install/nav2_planner
+[14.329s] Invoking command in '/home/ros2/ros2_rc/src/build/nav2_planner': AMENT_PREFIX_PATH=/home/ros2/ros2_rc/src/install/nav2_core:/home/ros2/ros2_rc/src/install/nav2_costmap_2d:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/ros2_rc/src/install/nav2_core:/home/ros2/ros2_rc/src/install/nav2_costmap_2d:/home/ros2/ros2_rc/src/install/nav2_map_server:/home/ros2/ros2_rc/src/install/nav2_lifecycle_manager:/home/ros2/ros2_rc/src/install/nav2_util:/home/ros2/ros2_rc/src/install/nav2_voxel_grid:/home/ros2/ros2_rc/src/install/nav2_msgs:/home/ros2/ros2_rc/src/install/nav2_common:/home/ros2/ros2_rc/src/install/smartcar_msgs:/home/ros2/ros2_rc/src/install/smart_car:/home/ros2/ros2_rc/src/install/ros2_rc:/home/ros2/ros2_rc/src/install/nav_2d_utils:/home/ros2/ros2_rc/src/install/dwb_msgs:/home/ros2/ros2_rc/src/install/nav_2d_msgs:/home/ros2/ros2_rc/src/install/nav2_velocity_smoother:/home/ros2/ros2_rc/src/install/nav2_rviz_plugins:/home/ros2/ros2_rc/src/install/nav2_amcl:/home/ros2/ros2_rc/src/install/car_gazebo_plugin:/home/ros2/ros2_rc/src/install/nav2_simple_commander:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/ros2_rc/src/install/nav2_costmap_2d/lib:/home/ros2/ros2_rc/src/install/nav2_map_server/lib:/home/ros2/ros2_rc/src/install/nav2_lifecycle_manager/lib:/home/ros2/ros2_rc/src/install/nav2_util/lib:/home/ros2/ros2_rc/src/install/nav2_voxel_grid/lib:/home/ros2/ros2_rc/src/install/nav2_msgs/lib:/home/ros2/ros2_rc/src/install/smartcar_msgs/lib:/home/ros2/ros2_rc/src/install/nav_2d_utils/lib:/home/ros2/ros2_rc/src/install/dwb_msgs/lib:/home/ros2/ros2_rc/src/install/nav_2d_msgs/lib:/home/ros2/ros2_rc/src/install/nav2_velocity_smoother/lib:/home/ros2/ros2_rc/src/install/nav2_rviz_plugins/lib:/home/ros2/ros2_rc/src/install/nav2_amcl/lib:/home/ros2/ros2_rc/src/install/car_gazebo_plugin/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/ros2/ros2_rc/src/build/nav2_planner -- -j9 -l9
+[41.683s] [ 10%] [32mBuilding CXX object CMakeFiles/planner_server_core.dir/src/planner_server.cpp.o[0m
+[52.348s] [ 20%] [32m[1mLinking CXX shared library libplanner_server_core.so[0m
+[54.198s] [ 20%] Built target planner_server_core
+[54.240s] [ 30%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[54.495s] [ 40%] [32m[1mLinking CXX static library libgtest.a[0m
+[54.568s] [ 40%] Built target gtest
+[54.626s] [ 50%] [32mBuilding CXX object CMakeFiles/planner_server.dir/src/main.cpp.o[0m
+[67.037s] [ 60%] [32m[1mLinking CXX executable planner_server[0m
+[68.425s] [ 60%] Built target planner_server
+[68.528s] [ 70%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[69.056s] [ 80%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[69.294s] [ 80%] Built target gtest_main
+[69.466s] [ 90%] [32mBuilding CXX object test/CMakeFiles/test_dynamic_parameters.dir/test_dynamic_parameters.cpp.o[0m
+[88.934s] [100%] [32m[1mLinking CXX executable test_dynamic_parameters[0m
+[91.686s] [100%] Built target test_dynamic_parameters
+[91.846s] Invoked command in '/home/ros2/ros2_rc/src/build/nav2_planner' returned '0': AMENT_PREFIX_PATH=/home/ros2/ros2_rc/src/install/nav2_core:/home/ros2/ros2_rc/src/install/nav2_costmap_2d:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/ros2_rc/src/install/nav2_core:/home/ros2/ros2_rc/src/install/nav2_costmap_2d:/home/ros2/ros2_rc/src/install/nav2_map_server:/home/ros2/ros2_rc/src/install/nav2_lifecycle_manager:/home/ros2/ros2_rc/src/install/nav2_util:/home/ros2/ros2_rc/src/install/nav2_voxel_grid:/home/ros2/ros2_rc/src/install/nav2_msgs:/home/ros2/ros2_rc/src/install/nav2_common:/home/ros2/ros2_rc/src/install/smartcar_msgs:/home/ros2/ros2_rc/src/install/smart_car:/home/ros2/ros2_rc/src/install/ros2_rc:/home/ros2/ros2_rc/src/install/nav_2d_utils:/home/ros2/ros2_rc/src/install/dwb_msgs:/home/ros2/ros2_rc/src/install/nav_2d_msgs:/home/ros2/ros2_rc/src/install/nav2_velocity_smoother:/home/ros2/ros2_rc/src/install/nav2_rviz_plugins:/home/ros2/ros2_rc/src/install/nav2_amcl:/home/ros2/ros2_rc/src/install/car_gazebo_plugin:/home/ros2/ros2_rc/src/install/nav2_simple_commander:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/ros2_rc/src/install/nav2_costmap_2d/lib:/home/ros2/ros2_rc/src/install/nav2_map_server/lib:/home/ros2/ros2_rc/src/install/nav2_lifecycle_manager/lib:/home/ros2/ros2_rc/src/install/nav2_util/lib:/home/ros2/ros2_rc/src/install/nav2_voxel_grid/lib:/home/ros2/ros2_rc/src/install/nav2_msgs/lib:/home/ros2/ros2_rc/src/install/smartcar_msgs/lib:/home/ros2/ros2_rc/src/install/nav_2d_utils/lib:/home/ros2/ros2_rc/src/install/dwb_msgs/lib:/home/ros2/ros2_rc/src/install/nav_2d_msgs/lib:/home/ros2/ros2_rc/src/install/nav2_velocity_smoother/lib:/home/ros2/ros2_rc/src/install/nav2_rviz_plugins/lib:/home/ros2/ros2_rc/src/install/nav2_amcl/lib:/home/ros2/ros2_rc/src/install/car_gazebo_plugin/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/ros2/ros2_rc/src/build/nav2_planner -- -j9 -l9
+[92.228s] Invoking command in '/home/ros2/ros2_rc/src/build/nav2_planner': AMENT_PREFIX_PATH=/home/ros2/ros2_rc/src/install/nav2_core:/home/ros2/ros2_rc/src/install/nav2_costmap_2d:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/ros2_rc/src/install/nav2_core:/home/ros2/ros2_rc/src/install/nav2_costmap_2d:/home/ros2/ros2_rc/src/install/nav2_map_server:/home/ros2/ros2_rc/src/install/nav2_lifecycle_manager:/home/ros2/ros2_rc/src/install/nav2_util:/home/ros2/ros2_rc/src/install/nav2_voxel_grid:/home/ros2/ros2_rc/src/install/nav2_msgs:/home/ros2/ros2_rc/src/install/nav2_common:/home/ros2/ros2_rc/src/install/smartcar_msgs:/home/ros2/ros2_rc/src/install/smart_car:/home/ros2/ros2_rc/src/install/ros2_rc:/home/ros2/ros2_rc/src/install/nav_2d_utils:/home/ros2/ros2_rc/src/install/dwb_msgs:/home/ros2/ros2_rc/src/install/nav_2d_msgs:/home/ros2/ros2_rc/src/install/nav2_velocity_smoother:/home/ros2/ros2_rc/src/install/nav2_rviz_plugins:/home/ros2/ros2_rc/src/install/nav2_amcl:/home/ros2/ros2_rc/src/install/car_gazebo_plugin:/home/ros2/ros2_rc/src/install/nav2_simple_commander:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/ros2_rc/src/install/nav2_costmap_2d/lib:/home/ros2/ros2_rc/src/install/nav2_map_server/lib:/home/ros2/ros2_rc/src/install/nav2_lifecycle_manager/lib:/home/ros2/ros2_rc/src/install/nav2_util/lib:/home/ros2/ros2_rc/src/install/nav2_voxel_grid/lib:/home/ros2/ros2_rc/src/install/nav2_msgs/lib:/home/ros2/ros2_rc/src/install/smartcar_msgs/lib:/home/ros2/ros2_rc/src/install/nav_2d_utils/lib:/home/ros2/ros2_rc/src/install/dwb_msgs/lib:/home/ros2/ros2_rc/src/install/nav_2d_msgs/lib:/home/ros2/ros2_rc/src/install/nav2_velocity_smoother/lib:/home/ros2/ros2_rc/src/install/nav2_rviz_plugins/lib:/home/ros2/ros2_rc/src/install/nav2_amcl/lib:/home/ros2/ros2_rc/src/install/car_gazebo_plugin/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/ros2/ros2_rc/src/build/nav2_planner
+[104.317s] -- Install configuration: "Release"
+[104.317s] -- Installing: /home/ros2/ros2_rc/src/install/nav2_planner/lib/libplanner_server_core.so
+[104.326s] -- Set runtime path of "/home/ros2/ros2_rc/src/install/nav2_planner/lib/libplanner_server_core.so" to ""
+[104.326s] -- Installing: /home/ros2/ros2_rc/src/install/nav2_planner/lib/nav2_planner/planner_server
+[104.326s] -- Set runtime path of "/home/ros2/ros2_rc/src/install/nav2_planner/lib/nav2_planner/planner_server" to ""
+[104.327s] -- Installing: /home/ros2/ros2_rc/src/install/nav2_planner/include/
+[104.327s] -- Installing: /home/ros2/ros2_rc/src/install/nav2_planner/include//nav2_planner
+[104.327s] -- Installing: /home/ros2/ros2_rc/src/install/nav2_planner/include//nav2_planner/planner_server.hpp
+[104.327s] -- Installing: /home/ros2/ros2_rc/src/install/nav2_planner/share/nav2_planner/environment/library_path.sh
+[104.327s] -- Installing: /home/ros2/ros2_rc/src/install/nav2_planner/share/nav2_planner/environment/library_path.dsv
+[104.327s] -- Installing: /home/ros2/ros2_rc/src/install/nav2_planner/share/ament_index/resource_index/package_run_dependencies/nav2_planner
+[104.327s] -- Installing: /home/ros2/ros2_rc/src/install/nav2_planner/share/ament_index/resource_index/parent_prefix_path/nav2_planner
+[104.327s] -- Installing: /home/ros2/ros2_rc/src/install/nav2_planner/share/nav2_planner/environment/ament_prefix_path.sh
+[104.327s] -- Installing: /home/ros2/ros2_rc/src/install/nav2_planner/share/nav2_planner/environment/ament_prefix_path.dsv
+[104.328s] -- Installing: /home/ros2/ros2_rc/src/install/nav2_planner/share/nav2_planner/environment/path.sh
+[104.328s] -- Installing: /home/ros2/ros2_rc/src/install/nav2_planner/share/nav2_planner/environment/path.dsv
+[104.328s] -- Installing: /home/ros2/ros2_rc/src/install/nav2_planner/share/nav2_planner/local_setup.bash
+[104.328s] -- Installing: /home/ros2/ros2_rc/src/install/nav2_planner/share/nav2_planner/local_setup.sh
+[104.328s] -- Installing: /home/ros2/ros2_rc/src/install/nav2_planner/share/nav2_planner/local_setup.zsh
+[104.328s] -- Installing: /home/ros2/ros2_rc/src/install/nav2_planner/share/nav2_planner/local_setup.dsv
+[104.328s] -- Installing: /home/ros2/ros2_rc/src/install/nav2_planner/share/nav2_planner/package.dsv
+[104.328s] -- Installing: /home/ros2/ros2_rc/src/install/nav2_planner/share/ament_index/resource_index/packages/nav2_planner
+[104.328s] -- Installing: /home/ros2/ros2_rc/src/install/nav2_planner/share/ament_index/resource_index/rclcpp_components/nav2_planner
+[104.329s] -- Installing: /home/ros2/ros2_rc/src/install/nav2_planner/share/nav2_planner/cmake/ament_cmake_export_include_directories-extras.cmake
+[104.329s] -- Installing: /home/ros2/ros2_rc/src/install/nav2_planner/share/nav2_planner/cmake/ament_cmake_export_libraries-extras.cmake
+[104.329s] -- Installing: /home/ros2/ros2_rc/src/install/nav2_planner/share/nav2_planner/cmake/ament_cmake_export_dependencies-extras.cmake
+[104.329s] -- Installing: /home/ros2/ros2_rc/src/install/nav2_planner/share/nav2_planner/cmake/nav2_plannerConfig.cmake
+[104.329s] -- Installing: /home/ros2/ros2_rc/src/install/nav2_planner/share/nav2_planner/cmake/nav2_plannerConfig-version.cmake
+[104.329s] -- Installing: /home/ros2/ros2_rc/src/install/nav2_planner/share/nav2_planner/package.xml
+[104.330s] Invoked command in '/home/ros2/ros2_rc/src/build/nav2_planner' returned '0': AMENT_PREFIX_PATH=/home/ros2/ros2_rc/src/install/nav2_core:/home/ros2/ros2_rc/src/install/nav2_costmap_2d:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/ros2_rc/src/install/nav2_core:/home/ros2/ros2_rc/src/install/nav2_costmap_2d:/home/ros2/ros2_rc/src/install/nav2_map_server:/home/ros2/ros2_rc/src/install/nav2_lifecycle_manager:/home/ros2/ros2_rc/src/install/nav2_util:/home/ros2/ros2_rc/src/install/nav2_voxel_grid:/home/ros2/ros2_rc/src/install/nav2_msgs:/home/ros2/ros2_rc/src/install/nav2_common:/home/ros2/ros2_rc/src/install/smartcar_msgs:/home/ros2/ros2_rc/src/install/smart_car:/home/ros2/ros2_rc/src/install/ros2_rc:/home/ros2/ros2_rc/src/install/nav_2d_utils:/home/ros2/ros2_rc/src/install/dwb_msgs:/home/ros2/ros2_rc/src/install/nav_2d_msgs:/home/ros2/ros2_rc/src/install/nav2_velocity_smoother:/home/ros2/ros2_rc/src/install/nav2_rviz_plugins:/home/ros2/ros2_rc/src/install/nav2_amcl:/home/ros2/ros2_rc/src/install/car_gazebo_plugin:/home/ros2/ros2_rc/src/install/nav2_simple_commander:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/ros2_rc/src/install/nav2_costmap_2d/lib:/home/ros2/ros2_rc/src/install/nav2_map_server/lib:/home/ros2/ros2_rc/src/install/nav2_lifecycle_manager/lib:/home/ros2/ros2_rc/src/install/nav2_util/lib:/home/ros2/ros2_rc/src/install/nav2_voxel_grid/lib:/home/ros2/ros2_rc/src/install/nav2_msgs/lib:/home/ros2/ros2_rc/src/install/smartcar_msgs/lib:/home/ros2/ros2_rc/src/install/nav_2d_utils/lib:/home/ros2/ros2_rc/src/install/dwb_msgs/lib:/home/ros2/ros2_rc/src/install/nav_2d_msgs/lib:/home/ros2/ros2_rc/src/install/nav2_velocity_smoother/lib:/home/ros2/ros2_rc/src/install/nav2_rviz_plugins/lib:/home/ros2/ros2_rc/src/install/nav2_amcl/lib:/home/ros2/ros2_rc/src/install/car_gazebo_plugin/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/ros2/ros2_rc/src/build/nav2_planner

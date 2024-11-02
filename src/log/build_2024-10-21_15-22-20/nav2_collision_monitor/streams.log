@@ -1,0 +1,132 @@
+[0.046s] Invoking command in '/home/ros2/ros2_rc/src/build/nav2_collision_monitor': AMENT_PREFIX_PATH=/home/ros2/ros2_rc/src/install/nav2_costmap_2d:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/ros2_rc/src/install/nav2_costmap_2d:/home/ros2/ros2_rc/src/install/nav2_map_server:/home/ros2/ros2_rc/src/install/nav2_lifecycle_manager:/home/ros2/ros2_rc/src/install/nav2_util:/home/ros2/ros2_rc/src/install/nav2_voxel_grid:/home/ros2/ros2_rc/src/install/nav2_msgs:/home/ros2/ros2_rc/src/install/nav2_common:/home/ros2/ros2_rc/src/install/smartcar_msgs:/home/ros2/ros2_rc/src/install/smart_car:/home/ros2/ros2_rc/src/install/ros2_rc:/home/ros2/ros2_rc/src/install/nav_2d_utils:/home/ros2/ros2_rc/src/install/dwb_msgs:/home/ros2/ros2_rc/src/install/nav_2d_msgs:/home/ros2/ros2_rc/src/install/nav2_velocity_smoother:/home/ros2/ros2_rc/src/install/nav2_rviz_plugins:/home/ros2/ros2_rc/src/install/nav2_amcl:/home/ros2/ros2_rc/src/install/car_gazebo_plugin:/home/ros2/ros2_rc/src/install/nav2_simple_commander:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/ros2_rc/src/install/nav2_costmap_2d/lib:/home/ros2/ros2_rc/src/install/nav2_map_server/lib:/home/ros2/ros2_rc/src/install/nav2_lifecycle_manager/lib:/home/ros2/ros2_rc/src/install/nav2_util/lib:/home/ros2/ros2_rc/src/install/nav2_voxel_grid/lib:/home/ros2/ros2_rc/src/install/nav2_msgs/lib:/home/ros2/ros2_rc/src/install/smartcar_msgs/lib:/home/ros2/ros2_rc/src/install/nav_2d_utils/lib:/home/ros2/ros2_rc/src/install/dwb_msgs/lib:/home/ros2/ros2_rc/src/install/nav_2d_msgs/lib:/home/ros2/ros2_rc/src/install/nav2_velocity_smoother/lib:/home/ros2/ros2_rc/src/install/nav2_rviz_plugins/lib:/home/ros2/ros2_rc/src/install/nav2_amcl/lib:/home/ros2/ros2_rc/src/install/car_gazebo_plugin/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake /home/ros2/ros2_rc/src/navigation2/nav2_collision_monitor -DCMAKE_INSTALL_PREFIX=/home/ros2/ros2_rc/src/install/nav2_collision_monitor
+[0.169s] -- The C compiler identification is GNU 11.4.0
+[0.275s] -- The CXX compiler identification is GNU 11.4.0
+[0.291s] -- Detecting C compiler ABI info
+[0.399s] -- Detecting C compiler ABI info - done
+[0.412s] -- Check for working C compiler: /usr/lib/ccache/gcc - skipped
+[0.413s] -- Detecting C compile features
+[0.414s] -- Detecting C compile features - done
+[0.419s] -- Detecting CXX compiler ABI info
+[0.526s] -- Detecting CXX compiler ABI info - done
+[0.540s] -- Check for working CXX compiler: /usr/lib/ccache/g++ - skipped
+[0.540s] -- Detecting CXX compile features
+[0.541s] -- Detecting CXX compile features - done
+[0.549s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.808s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.003s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[1.115s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.130s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.153s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.184s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.223s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.336s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.346s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[1.410s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.435s] -- Looking for pthread.h
+[1.584s] -- Looking for pthread.h - found
+[1.584s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.724s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.726s] -- Found Threads: TRUE  
+[1.846s] -- Found rclcpp_components: 16.0.10 (/opt/ros/humble/share/rclcpp_components/cmake)
+[1.910s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.969s] -- Found tf2: 0.25.8 (/opt/ros/humble/share/tf2/cmake)
+[1.980s] -- Found tf2_ros: 0.25.8 (/opt/ros/humble/share/tf2_ros/cmake)
+[2.141s] -- Found tf2_geometry_msgs: 0.25.8 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[2.172s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[2.174s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.174s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.177s] -- Found nav2_common: 1.1.16 (/home/ros2/ros2_rc/src/install/nav2_common/share/nav2_common/cmake)
+[2.178s] -- Found nav2_util: 1.1.16 (/home/ros2/ros2_rc/src/install/nav2_util/share/nav2_util/cmake)
+[2.368s] -- Found nav2_costmap_2d: 1.1.16 (/home/ros2/ros2_rc/src/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake)
+[2.555s] -- Setting build type to Release as none was specified.
+[2.650s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.792s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[3.009s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.009s] -- Configured cppcheck include dirs: /home/ros2/ros2_rc/src/navigation2/nav2_collision_monitor/include
+[3.009s] -- Configured cppcheck exclude dirs and/or files: 
+[3.010s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.014s] -- Added test 'lint_cmake' to check CMake code style
+[3.014s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.018s] -- Added test 'uncrustify' to check C / C++ code style
+[3.018s] -- Configured uncrustify additional arguments: 
+[3.022s] -- Added test 'xmllint' to check XML markup files
+[3.040s] -- Configuring done
+[3.497s] -- Generating done
+[3.506s] -- Build files have been written to: /home/ros2/ros2_rc/src/build/nav2_collision_monitor
+[3.601s] Invoked command in '/home/ros2/ros2_rc/src/build/nav2_collision_monitor' returned '0': AMENT_PREFIX_PATH=/home/ros2/ros2_rc/src/install/nav2_costmap_2d:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/ros2_rc/src/install/nav2_costmap_2d:/home/ros2/ros2_rc/src/install/nav2_map_server:/home/ros2/ros2_rc/src/install/nav2_lifecycle_manager:/home/ros2/ros2_rc/src/install/nav2_util:/home/ros2/ros2_rc/src/install/nav2_voxel_grid:/home/ros2/ros2_rc/src/install/nav2_msgs:/home/ros2/ros2_rc/src/install/nav2_common:/home/ros2/ros2_rc/src/install/smartcar_msgs:/home/ros2/ros2_rc/src/install/smart_car:/home/ros2/ros2_rc/src/install/ros2_rc:/home/ros2/ros2_rc/src/install/nav_2d_utils:/home/ros2/ros2_rc/src/install/dwb_msgs:/home/ros2/ros2_rc/src/install/nav_2d_msgs:/home/ros2/ros2_rc/src/install/nav2_velocity_smoother:/home/ros2/ros2_rc/src/install/nav2_rviz_plugins:/home/ros2/ros2_rc/src/install/nav2_amcl:/home/ros2/ros2_rc/src/install/car_gazebo_plugin:/home/ros2/ros2_rc/src/install/nav2_simple_commander:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/ros2_rc/src/install/nav2_costmap_2d/lib:/home/ros2/ros2_rc/src/install/nav2_map_server/lib:/home/ros2/ros2_rc/src/install/nav2_lifecycle_manager/lib:/home/ros2/ros2_rc/src/install/nav2_util/lib:/home/ros2/ros2_rc/src/install/nav2_voxel_grid/lib:/home/ros2/ros2_rc/src/install/nav2_msgs/lib:/home/ros2/ros2_rc/src/install/smartcar_msgs/lib:/home/ros2/ros2_rc/src/install/nav_2d_utils/lib:/home/ros2/ros2_rc/src/install/dwb_msgs/lib:/home/ros2/ros2_rc/src/install/nav_2d_msgs/lib:/home/ros2/ros2_rc/src/install/nav2_velocity_smoother/lib:/home/ros2/ros2_rc/src/install/nav2_rviz_plugins/lib:/home/ros2/ros2_rc/src/install/nav2_amcl/lib:/home/ros2/ros2_rc/src/install/car_gazebo_plugin/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake /home/ros2/ros2_rc/src/navigation2/nav2_collision_monitor -DCMAKE_INSTALL_PREFIX=/home/ros2/ros2_rc/src/install/nav2_collision_monitor
+[3.602s] Invoking command in '/home/ros2/ros2_rc/src/build/nav2_collision_monitor': AMENT_PREFIX_PATH=/home/ros2/ros2_rc/src/install/nav2_costmap_2d:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/ros2_rc/src/install/nav2_costmap_2d:/home/ros2/ros2_rc/src/install/nav2_map_server:/home/ros2/ros2_rc/src/install/nav2_lifecycle_manager:/home/ros2/ros2_rc/src/install/nav2_util:/home/ros2/ros2_rc/src/install/nav2_voxel_grid:/home/ros2/ros2_rc/src/install/nav2_msgs:/home/ros2/ros2_rc/src/install/nav2_common:/home/ros2/ros2_rc/src/install/smartcar_msgs:/home/ros2/ros2_rc/src/install/smart_car:/home/ros2/ros2_rc/src/install/ros2_rc:/home/ros2/ros2_rc/src/install/nav_2d_utils:/home/ros2/ros2_rc/src/install/dwb_msgs:/home/ros2/ros2_rc/src/install/nav_2d_msgs:/home/ros2/ros2_rc/src/install/nav2_velocity_smoother:/home/ros2/ros2_rc/src/install/nav2_rviz_plugins:/home/ros2/ros2_rc/src/install/nav2_amcl:/home/ros2/ros2_rc/src/install/car_gazebo_plugin:/home/ros2/ros2_rc/src/install/nav2_simple_commander:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/ros2_rc/src/install/nav2_costmap_2d/lib:/home/ros2/ros2_rc/src/install/nav2_map_server/lib:/home/ros2/ros2_rc/src/install/nav2_lifecycle_manager/lib:/home/ros2/ros2_rc/src/install/nav2_util/lib:/home/ros2/ros2_rc/src/install/nav2_voxel_grid/lib:/home/ros2/ros2_rc/src/install/nav2_msgs/lib:/home/ros2/ros2_rc/src/install/smartcar_msgs/lib:/home/ros2/ros2_rc/src/install/nav_2d_utils/lib:/home/ros2/ros2_rc/src/install/dwb_msgs/lib:/home/ros2/ros2_rc/src/install/nav_2d_msgs/lib:/home/ros2/ros2_rc/src/install/nav2_velocity_smoother/lib:/home/ros2/ros2_rc/src/install/nav2_rviz_plugins/lib:/home/ros2/ros2_rc/src/install/nav2_amcl/lib:/home/ros2/ros2_rc/src/install/car_gazebo_plugin/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/ros2/ros2_rc/src/build/nav2_collision_monitor -- -j9 -l9
+[10.938s] [  4%] [32mBuilding CXX object CMakeFiles/collision_monitor_core.dir/src/collision_monitor_node.cpp.o[0m
+[10.939s] [  8%] [32mBuilding CXX object CMakeFiles/collision_monitor_core.dir/src/polygon.cpp.o[0m
+[10.939s] [ 13%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[10.939s] [ 17%] [32mBuilding CXX object CMakeFiles/collision_monitor_core.dir/src/circle.cpp.o[0m
+[10.939s] [ 21%] [32mBuilding CXX object CMakeFiles/collision_monitor_core.dir/src/source.cpp.o[0m
+[10.939s] [ 26%] [32mBuilding CXX object CMakeFiles/collision_monitor_core.dir/src/scan.cpp.o[0m
+[10.939s] [ 30%] [32mBuilding CXX object CMakeFiles/collision_monitor_core.dir/src/pointcloud.cpp.o[0m
+[10.939s] [ 34%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[10.939s] [ 39%] [32mBuilding CXX object CMakeFiles/collision_monitor_core.dir/src/range.cpp.o[0m
+[10.939s] [ 43%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[10.939s] [ 47%] [32m[1mLinking CXX static library libgtest.a[0m
+[10.940s] [ 47%] Built target gtest_main
+[10.940s] [ 52%] [32mBuilding CXX object CMakeFiles/collision_monitor_core.dir/src/kinematics.cpp.o[0m
+[10.940s] [ 52%] Built target gtest
+[55.364s] [ 56%] [32m[1mLinking CXX shared library libcollision_monitor_core.so[0m
+[57.572s] [ 56%] Built target collision_monitor_core
+[57.712s] [ 60%] [32mBuilding CXX object CMakeFiles/collision_monitor.dir/src/main.cpp.o[0m
+[66.539s] [ 65%] [32m[1mLinking CXX executable collision_monitor[0m
+[67.578s] [ 65%] Built target collision_monitor
+[67.643s] [ 69%] [32mBuilding CXX object test/CMakeFiles/collision_monitor_node_test.dir/collision_monitor_node_test.cpp.o[0m
+[113.509s] [ 73%] [32m[1mLinking CXX executable collision_monitor_node_test[0m
+[115.978s] [ 73%] Built target collision_monitor_node_test
+[116.173s] [ 78%] [32mBuilding CXX object test/CMakeFiles/sources_test.dir/sources_test.cpp.o[0m
+[116.183s] [ 82%] [32mBuilding CXX object test/CMakeFiles/polygons_test.dir/polygons_test.cpp.o[0m
+[140.971s] [ 86%] [32m[1mLinking CXX executable sources_test[0m
+[142.885s] [ 86%] Built target sources_test
+[149.473s] [ 91%] [32m[1mLinking CXX executable polygons_test[0m
+[151.680s] [ 91%] Built target polygons_test
+[151.742s] [ 95%] [32mBuilding CXX object test/CMakeFiles/kinematics_test.dir/kinematics_test.cpp.o[0m
+[160.688s] [100%] [32m[1mLinking CXX executable kinematics_test[0m
+[162.769s] [100%] Built target kinematics_test
+[163.683s] Invoked command in '/home/ros2/ros2_rc/src/build/nav2_collision_monitor' returned '0': AMENT_PREFIX_PATH=/home/ros2/ros2_rc/src/install/nav2_costmap_2d:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/ros2_rc/src/install/nav2_costmap_2d:/home/ros2/ros2_rc/src/install/nav2_map_server:/home/ros2/ros2_rc/src/install/nav2_lifecycle_manager:/home/ros2/ros2_rc/src/install/nav2_util:/home/ros2/ros2_rc/src/install/nav2_voxel_grid:/home/ros2/ros2_rc/src/install/nav2_msgs:/home/ros2/ros2_rc/src/install/nav2_common:/home/ros2/ros2_rc/src/install/smartcar_msgs:/home/ros2/ros2_rc/src/install/smart_car:/home/ros2/ros2_rc/src/install/ros2_rc:/home/ros2/ros2_rc/src/install/nav_2d_utils:/home/ros2/ros2_rc/src/install/dwb_msgs:/home/ros2/ros2_rc/src/install/nav_2d_msgs:/home/ros2/ros2_rc/src/install/nav2_velocity_smoother:/home/ros2/ros2_rc/src/install/nav2_rviz_plugins:/home/ros2/ros2_rc/src/install/nav2_amcl:/home/ros2/ros2_rc/src/install/car_gazebo_plugin:/home/ros2/ros2_rc/src/install/nav2_simple_commander:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/ros2_rc/src/install/nav2_costmap_2d/lib:/home/ros2/ros2_rc/src/install/nav2_map_server/lib:/home/ros2/ros2_rc/src/install/nav2_lifecycle_manager/lib:/home/ros2/ros2_rc/src/install/nav2_util/lib:/home/ros2/ros2_rc/src/install/nav2_voxel_grid/lib:/home/ros2/ros2_rc/src/install/nav2_msgs/lib:/home/ros2/ros2_rc/src/install/smartcar_msgs/lib:/home/ros2/ros2_rc/src/install/nav_2d_utils/lib:/home/ros2/ros2_rc/src/install/dwb_msgs/lib:/home/ros2/ros2_rc/src/install/nav_2d_msgs/lib:/home/ros2/ros2_rc/src/install/nav2_velocity_smoother/lib:/home/ros2/ros2_rc/src/install/nav2_rviz_plugins/lib:/home/ros2/ros2_rc/src/install/nav2_amcl/lib:/home/ros2/ros2_rc/src/install/car_gazebo_plugin/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/ros2/ros2_rc/src/build/nav2_collision_monitor -- -j9 -l9
+[164.431s] Invoking command in '/home/ros2/ros2_rc/src/build/nav2_collision_monitor': AMENT_PREFIX_PATH=/home/ros2/ros2_rc/src/install/nav2_costmap_2d:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/ros2_rc/src/install/nav2_costmap_2d:/home/ros2/ros2_rc/src/install/nav2_map_server:/home/ros2/ros2_rc/src/install/nav2_lifecycle_manager:/home/ros2/ros2_rc/src/install/nav2_util:/home/ros2/ros2_rc/src/install/nav2_voxel_grid:/home/ros2/ros2_rc/src/install/nav2_msgs:/home/ros2/ros2_rc/src/install/nav2_common:/home/ros2/ros2_rc/src/install/smartcar_msgs:/home/ros2/ros2_rc/src/install/smart_car:/home/ros2/ros2_rc/src/install/ros2_rc:/home/ros2/ros2_rc/src/install/nav_2d_utils:/home/ros2/ros2_rc/src/install/dwb_msgs:/home/ros2/ros2_rc/src/install/nav_2d_msgs:/home/ros2/ros2_rc/src/install/nav2_velocity_smoother:/home/ros2/ros2_rc/src/install/nav2_rviz_plugins:/home/ros2/ros2_rc/src/install/nav2_amcl:/home/ros2/ros2_rc/src/install/car_gazebo_plugin:/home/ros2/ros2_rc/src/install/nav2_simple_commander:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/ros2_rc/src/install/nav2_costmap_2d/lib:/home/ros2/ros2_rc/src/install/nav2_map_server/lib:/home/ros2/ros2_rc/src/install/nav2_lifecycle_manager/lib:/home/ros2/ros2_rc/src/install/nav2_util/lib:/home/ros2/ros2_rc/src/install/nav2_voxel_grid/lib:/home/ros2/ros2_rc/src/install/nav2_msgs/lib:/home/ros2/ros2_rc/src/install/smartcar_msgs/lib:/home/ros2/ros2_rc/src/install/nav_2d_utils/lib:/home/ros2/ros2_rc/src/install/dwb_msgs/lib:/home/ros2/ros2_rc/src/install/nav_2d_msgs/lib:/home/ros2/ros2_rc/src/install/nav2_velocity_smoother/lib:/home/ros2/ros2_rc/src/install/nav2_rviz_plugins/lib:/home/ros2/ros2_rc/src/install/nav2_amcl/lib:/home/ros2/ros2_rc/src/install/car_gazebo_plugin/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/ros2/ros2_rc/src/build/nav2_collision_monitor
+[164.449s] -- Install configuration: "Release"
+[164.449s] -- Installing: /home/ros2/ros2_rc/src/install/nav2_collision_monitor/lib/libcollision_monitor_core.so
+[164.455s] -- Set runtime path of "/home/ros2/ros2_rc/src/install/nav2_collision_monitor/lib/libcollision_monitor_core.so" to ""
+[164.456s] -- Installing: /home/ros2/ros2_rc/src/install/nav2_collision_monitor/lib/nav2_collision_monitor/collision_monitor
+[164.456s] -- Set runtime path of "/home/ros2/ros2_rc/src/install/nav2_collision_monitor/lib/nav2_collision_monitor/collision_monitor" to ""
+[164.457s] -- Installing: /home/ros2/ros2_rc/src/install/nav2_collision_monitor/include/
+[164.457s] -- Installing: /home/ros2/ros2_rc/src/install/nav2_collision_monitor/include//nav2_collision_monitor
+[164.458s] -- Installing: /home/ros2/ros2_rc/src/install/nav2_collision_monitor/include//nav2_collision_monitor/range.hpp
+[164.458s] -- Installing: /home/ros2/ros2_rc/src/install/nav2_collision_monitor/include//nav2_collision_monitor/source.hpp
+[164.458s] -- Installing: /home/ros2/ros2_rc/src/install/nav2_collision_monitor/include//nav2_collision_monitor/types.hpp
+[164.459s] -- Installing: /home/ros2/ros2_rc/src/install/nav2_collision_monitor/include//nav2_collision_monitor/kinematics.hpp
+[164.459s] -- Installing: /home/ros2/ros2_rc/src/install/nav2_collision_monitor/include//nav2_collision_monitor/circle.hpp
+[164.459s] -- Installing: /home/ros2/ros2_rc/src/install/nav2_collision_monitor/include//nav2_collision_monitor/polygon.hpp
+[164.459s] -- Installing: /home/ros2/ros2_rc/src/install/nav2_collision_monitor/include//nav2_collision_monitor/collision_monitor_node.hpp
+[164.459s] -- Installing: /home/ros2/ros2_rc/src/install/nav2_collision_monitor/include//nav2_collision_monitor/pointcloud.hpp
+[164.460s] -- Installing: /home/ros2/ros2_rc/src/install/nav2_collision_monitor/include//nav2_collision_monitor/scan.hpp
+[164.460s] -- Installing: /home/ros2/ros2_rc/src/install/nav2_collision_monitor/share/nav2_collision_monitor/launch
+[164.461s] -- Installing: /home/ros2/ros2_rc/src/install/nav2_collision_monitor/share/nav2_collision_monitor/launch/collision_monitor_node.launch.py
+[164.499s] -- Installing: /home/ros2/ros2_rc/src/install/nav2_collision_monitor/share/nav2_collision_monitor/params
+[164.502s] -- Installing: /home/ros2/ros2_rc/src/install/nav2_collision_monitor/share/nav2_collision_monitor/params/collision_monitor_params.yaml
+[164.502s] -- Installing: /home/ros2/ros2_rc/src/install/nav2_collision_monitor/share/nav2_collision_monitor/environment/library_path.sh
+[164.523s] -- Installing: /home/ros2/ros2_rc/src/install/nav2_collision_monitor/share/nav2_collision_monitor/environment/library_path.dsv
+[164.533s] -- Installing: /home/ros2/ros2_rc/src/install/nav2_collision_monitor/share/ament_index/resource_index/package_run_dependencies/nav2_collision_monitor
+[164.534s] -- Installing: /home/ros2/ros2_rc/src/install/nav2_collision_monitor/share/ament_index/resource_index/parent_prefix_path/nav2_collision_monitor
+[164.534s] -- Installing: /home/ros2/ros2_rc/src/install/nav2_collision_monitor/share/nav2_collision_monitor/environment/ament_prefix_path.sh
+[164.534s] -- Installing: /home/ros2/ros2_rc/src/install/nav2_collision_monitor/share/nav2_collision_monitor/environment/ament_prefix_path.dsv
+[164.534s] -- Installing: /home/ros2/ros2_rc/src/install/nav2_collision_monitor/share/nav2_collision_monitor/environment/path.sh
+[164.534s] -- Installing: /home/ros2/ros2_rc/src/install/nav2_collision_monitor/share/nav2_collision_monitor/environment/path.dsv
+[164.534s] -- Installing: /home/ros2/ros2_rc/src/install/nav2_collision_monitor/share/nav2_collision_monitor/local_setup.bash
+[164.534s] -- Installing: /home/ros2/ros2_rc/src/install/nav2_collision_monitor/share/nav2_collision_monitor/local_setup.sh
+[164.534s] -- Installing: /home/ros2/ros2_rc/src/install/nav2_collision_monitor/share/nav2_collision_monitor/local_setup.zsh
+[164.534s] -- Installing: /home/ros2/ros2_rc/src/install/nav2_collision_monitor/share/nav2_collision_monitor/local_setup.dsv
+[164.535s] -- Installing: /home/ros2/ros2_rc/src/install/nav2_collision_monitor/share/nav2_collision_monitor/package.dsv
+[164.535s] -- Installing: /home/ros2/ros2_rc/src/install/nav2_collision_monitor/share/ament_index/resource_index/packages/nav2_collision_monitor
+[164.535s] -- Installing: /home/ros2/ros2_rc/src/install/nav2_collision_monitor/share/ament_index/resource_index/rclcpp_components/nav2_collision_monitor
+[164.535s] -- Installing: /home/ros2/ros2_rc/src/install/nav2_collision_monitor/share/nav2_collision_monitor/cmake/ament_cmake_export_include_directories-extras.cmake
+[164.542s] -- Installing: /home/ros2/ros2_rc/src/install/nav2_collision_monitor/share/nav2_collision_monitor/cmake/ament_cmake_export_libraries-extras.cmake
+[164.544s] -- Installing: /home/ros2/ros2_rc/src/install/nav2_collision_monitor/share/nav2_collision_monitor/cmake/ament_cmake_export_dependencies-extras.cmake
+[164.545s] -- Installing: /home/ros2/ros2_rc/src/install/nav2_collision_monitor/share/nav2_collision_monitor/cmake/nav2_collision_monitorConfig.cmake
+[164.547s] -- Installing: /home/ros2/ros2_rc/src/install/nav2_collision_monitor/share/nav2_collision_monitor/cmake/nav2_collision_monitorConfig-version.cmake
+[164.576s] -- Installing: /home/ros2/ros2_rc/src/install/nav2_collision_monitor/share/nav2_collision_monitor/package.xml
+[164.608s] Invoked command in '/home/ros2/ros2_rc/src/build/nav2_collision_monitor' returned '0': AMENT_PREFIX_PATH=/home/ros2/ros2_rc/src/install/nav2_costmap_2d:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/ros2_rc/src/install/nav2_costmap_2d:/home/ros2/ros2_rc/src/install/nav2_map_server:/home/ros2/ros2_rc/src/install/nav2_lifecycle_manager:/home/ros2/ros2_rc/src/install/nav2_util:/home/ros2/ros2_rc/src/install/nav2_voxel_grid:/home/ros2/ros2_rc/src/install/nav2_msgs:/home/ros2/ros2_rc/src/install/nav2_common:/home/ros2/ros2_rc/src/install/smartcar_msgs:/home/ros2/ros2_rc/src/install/smart_car:/home/ros2/ros2_rc/src/install/ros2_rc:/home/ros2/ros2_rc/src/install/nav_2d_utils:/home/ros2/ros2_rc/src/install/dwb_msgs:/home/ros2/ros2_rc/src/install/nav_2d_msgs:/home/ros2/ros2_rc/src/install/nav2_velocity_smoother:/home/ros2/ros2_rc/src/install/nav2_rviz_plugins:/home/ros2/ros2_rc/src/install/nav2_amcl:/home/ros2/ros2_rc/src/install/car_gazebo_plugin:/home/ros2/ros2_rc/src/install/nav2_simple_commander:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/ros2_rc/src/install/nav2_costmap_2d/lib:/home/ros2/ros2_rc/src/install/nav2_map_server/lib:/home/ros2/ros2_rc/src/install/nav2_lifecycle_manager/lib:/home/ros2/ros2_rc/src/install/nav2_util/lib:/home/ros2/ros2_rc/src/install/nav2_voxel_grid/lib:/home/ros2/ros2_rc/src/install/nav2_msgs/lib:/home/ros2/ros2_rc/src/install/smartcar_msgs/lib:/home/ros2/ros2_rc/src/install/nav_2d_utils/lib:/home/ros2/ros2_rc/src/install/dwb_msgs/lib:/home/ros2/ros2_rc/src/install/nav_2d_msgs/lib:/home/ros2/ros2_rc/src/install/nav2_velocity_smoother/lib:/home/ros2/ros2_rc/src/install/nav2_rviz_plugins/lib:/home/ros2/ros2_rc/src/install/nav2_amcl/lib:/home/ros2/ros2_rc/src/install/car_gazebo_plugin/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/ros2/ros2_rc/src/build/nav2_collision_monitor

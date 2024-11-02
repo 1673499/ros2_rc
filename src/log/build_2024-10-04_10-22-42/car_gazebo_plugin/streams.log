@@ -1,0 +1,131 @@
+[0.040s] Invoking command in '/home/ros2/ros2_rc/src/build/car_gazebo_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ros2/ros2_rc/src/car_gazebo_plugin -DCMAKE_INSTALL_PREFIX=/home/ros2/ros2_rc/src/install/car_gazebo_plugin
+[0.222s] -- The C compiler identification is GNU 11.4.0
+[0.391s] -- The CXX compiler identification is GNU 11.4.0
+[0.426s] -- Detecting C compiler ABI info
+[0.545s] -- Detecting C compiler ABI info - done
+[0.560s] -- Check for working C compiler: /usr/lib/ccache/gcc - skipped
+[0.567s] -- Detecting C compile features
+[0.567s] -- Detecting C compile features - done
+[0.567s] -- Detecting CXX compiler ABI info
+[0.686s] -- Detecting CXX compiler ABI info - done
+[0.699s] -- Check for working CXX compiler: /usr/lib/ccache/g++ - skipped
+[0.700s] -- Detecting CXX compile features
+[0.700s] -- Detecting CXX compile features - done
+[0.720s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[0.720s]   The package name passed to `find_package_handle_standard_args` (PkgConfig)
+[0.720s]   does not match the name of the calling package (gazebo).  This can lead to
+[0.720s]   problems in calling code that expects `find_package` result variables
+[0.720s]   (e.g., `_FOUND`) to follow a certain pattern.
+[0.720s] Call Stack (most recent call first):
+[0.720s]   /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:99 (find_package_handle_standard_args)
+[0.720s]   /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:72 (include)
+[0.720s]   CMakeLists.txt:14 (find_package)
+[0.721s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.721s] [0m
+[0.721s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[0.725s] -- Checking for module 'bullet>=2.82'
+[0.746s] --   Found bullet, version 3.05
+[0.943s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[1.034s] -- Found assimp: /usr/include (found version "5.2.0") 
+[1.076s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[1.477s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[1.530s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[1.545s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.571s] -- Searching for dependencies of ignition-math6
+[1.579s] -- Looking for OGRE...
+[1.580s] -- OGRE_PREFIX_WATCH changed.
+[1.589s] -- Checking for module 'OGRE'
+[1.615s] --   Found OGRE, version 1.9.0
+[1.681s] -- Found Ogre Ghadamon (1.9.0)
+[1.703s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[1.716s] -- Looking for OGRE_Paging...
+[1.729s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[1.729s] -- Looking for OGRE_Terrain...
+[1.738s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[1.738s] -- Looking for OGRE_Property...
+[1.748s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[1.748s] -- Looking for OGRE_RTShaderSystem...
+[1.760s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[1.761s] -- Looking for OGRE_Volume...
+[1.777s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[1.777s] -- Looking for OGRE_Overlay...
+[1.792s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[2.044s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.048s] -- Looking for ignition-transport8 -- found version 8.2.1
+[2.049s] -- Searching for dependencies of ignition-transport8
+[2.073s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[2.090s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[2.098s] -- Checking for module 'libzmq >= 4'
+[2.123s] --   Found libzmq , version 4.3.4
+[2.188s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[2.199s] -- Checking for module 'uuid'
+[2.222s] --   Found uuid, version 2.37.2
+[2.277s] -- Found UUID: TRUE  
+[2.282s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.282s] -- Searching for dependencies of ignition-msgs5
+[2.308s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.316s] -- Checking for module 'tinyxml2'
+[2.340s] --   Found tinyxml2, version 9.0.0
+[2.411s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.419s] -- Looking for ignition-common3 -- found version 3.14.0
+[2.419s] -- Searching for dependencies of ignition-common3
+[2.421s] -- Looking for dlfcn.h - found
+[2.422s] -- Looking for libdl - found
+[2.424s] -- Found DL: TRUE  
+[2.444s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[2.446s] -- Searching for <ignition-common3> component [graphics]
+[2.450s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[2.451s] -- Searching for dependencies of ignition-common3-graphics
+[2.451s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.458s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[2.459s] -- Searching for dependencies of ignition-fuel_tools4
+[2.587s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[2.604s] -- Checking for module 'jsoncpp'
+[2.626s] --   Found jsoncpp, version 1.9.5
+[2.685s] -- Found JSONCPP: TRUE  
+[2.700s] -- Checking for module 'libzip'
+[2.724s] --   Found libzip, version 1.7.3
+[2.790s] -- Found ZIP: TRUE  
+[2.791s] -- Looking for ignition-common3 -- found version 3.14.0
+[2.792s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.792s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.806s] -- Found gazebo_ros: 3.7.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[3.035s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.350s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.358s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.371s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.390s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.417s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.524s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.533s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[3.613s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[3.639s] -- Found Threads: TRUE  
+[3.808s] -- Gazebo version: 11.10
+[3.809s] -- Checking for module 'tbb'
+[3.836s] --   Found tbb, version 2021.5.0
+[3.915s] -- Found gazebo_ros_pkgs: 3.7.0 (/opt/ros/humble/share/gazebo_ros_pkgs/cmake)
+[3.920s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[4.031s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[4.079s] -- Found ackermann_msgs: 2.0.2 (/opt/ros/humble/share/ackermann_msgs/cmake)
+[4.133s] -- Found tf2: 0.25.7 (/opt/ros/humble/share/tf2/cmake)
+[4.164s] -- Found tf2_ros: 0.25.7 (/opt/ros/humble/share/tf2_ros/cmake)
+[4.449s] [31mCMake Error at CMakeLists.txt:24 (find_package):
+[4.449s]   By not providing "Findsmartcar_msgs.cmake" in CMAKE_MODULE_PATH this
+[4.449s]   project has asked CMake to find a package configuration file provided by
+[4.449s]   "smartcar_msgs", but CMake did not find one.
+[4.450s] 
+[4.450s]   Could not find a package configuration file provided by "smartcar_msgs"
+[4.450s]   with any of the following names:
+[4.450s] 
+[4.450s]     smartcar_msgsConfig.cmake
+[4.450s]     smartcar_msgs-config.cmake
+[4.450s] 
+[4.450s]   Add the installation prefix of "smartcar_msgs" to CMAKE_PREFIX_PATH or set
+[4.450s]   "smartcar_msgs_DIR" to a directory containing one of the above files.  If
+[4.450s]   "smartcar_msgs" provides a separate development package or SDK, be sure it
+[4.450s]   has been installed.
+[4.450s] 
+[4.451s] [0m
+[4.451s] -- Configuring incomplete, errors occurred!
+[4.451s] See also "/home/ros2/ros2_rc/src/build/car_gazebo_plugin/CMakeFiles/CMakeOutput.log".
+[4.480s] Invoked command in '/home/ros2/ros2_rc/src/build/car_gazebo_plugin' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ros2/ros2_rc/src/car_gazebo_plugin -DCMAKE_INSTALL_PREFIX=/home/ros2/ros2_rc/src/install/car_gazebo_plugin

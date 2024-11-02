@@ -1,0 +1,6 @@
+Invoking command in '/home/ros2/ros2_rc/src/build/ros2_rc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ros2/ros2_rc/src/ros2_rc -DCMAKE_INSTALL_PREFIX=/home/ros2/ros2_rc/src/install/ros2_rc
+Invoked command in '/home/ros2/ros2_rc/src/build/ros2_rc' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ros2/ros2_rc/src/ros2_rc -DCMAKE_INSTALL_PREFIX=/home/ros2/ros2_rc/src/install/ros2_rc
+Invoking command in '/home/ros2/ros2_rc/src/build/ros2_rc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ros2/ros2_rc/src/build/ros2_rc -- -j9 -l9
+Invoked command in '/home/ros2/ros2_rc/src/build/ros2_rc' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ros2/ros2_rc/src/build/ros2_rc -- -j9 -l9
+Invoking command in '/home/ros2/ros2_rc/src/build/ros2_rc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ros2/ros2_rc/src/build/ros2_rc
+Invoked command in '/home/ros2/ros2_rc/src/build/ros2_rc' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ros2/ros2_rc/src/build/ros2_rc

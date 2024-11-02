@@ -1,0 +1,15 @@
+/home/ros2/ros2_rc/install/ros2_rc/share/ament_index/resource_index/package_run_dependencies/ros2_rc
+/home/ros2/ros2_rc/install/ros2_rc/share/ament_index/resource_index/parent_prefix_path/ros2_rc
+/home/ros2/ros2_rc/install/ros2_rc/share/ros2_rc/environment/ament_prefix_path.sh
+/home/ros2/ros2_rc/install/ros2_rc/share/ros2_rc/environment/ament_prefix_path.dsv
+/home/ros2/ros2_rc/install/ros2_rc/share/ros2_rc/environment/path.sh
+/home/ros2/ros2_rc/install/ros2_rc/share/ros2_rc/environment/path.dsv
+/home/ros2/ros2_rc/install/ros2_rc/share/ros2_rc/local_setup.bash
+/home/ros2/ros2_rc/install/ros2_rc/share/ros2_rc/local_setup.sh
+/home/ros2/ros2_rc/install/ros2_rc/share/ros2_rc/local_setup.zsh
+/home/ros2/ros2_rc/install/ros2_rc/share/ros2_rc/local_setup.dsv
+/home/ros2/ros2_rc/install/ros2_rc/share/ros2_rc/package.dsv
+/home/ros2/ros2_rc/install/ros2_rc/share/ament_index/resource_index/packages/ros2_rc
+/home/ros2/ros2_rc/install/ros2_rc/share/ros2_rc/cmake/ros2_rcConfig.cmake
+/home/ros2/ros2_rc/install/ros2_rc/share/ros2_rc/cmake/ros2_rcConfig-version.cmake
+/home/ros2/ros2_rc/install/ros2_rc/share/ros2_rc/package.xml

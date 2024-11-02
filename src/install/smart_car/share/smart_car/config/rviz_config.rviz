@@ -1,0 +1,64 @@
+# RViz configuration file
+Visualization Manager:
+  Class: ""
+  Displays:
+    - Class: rviz_default_plugins/Map
+      Name: Map
+      Enabled: true
+      Topic: /map
+      Alpha: 0.7
+      Draw Behind: false
+      Color Scheme: map
+      Autostart: true
+    - Class: rviz_default_plugins/RobotModel
+      Name: RobotModel
+      Enabled: true
+      topic: /robot_description
+      Robot Description: robot_description
+    - Class: rviz_default_plugins/TF
+      Name: TF
+      Enabled: true
+      Show Axes: true
+    - Class: rviz_default_plugins/Path
+      Name: Global Path
+      Enabled: true
+      Topic: /plan
+      Color: 0; 1; 0
+      Alpha: 1.0
+    - Class: rviz_default_plugins/Path
+      Name: Local Path
+      Enabled: true
+      Topic: /local_plan
+      Color: 1; 0; 0
+      Alpha: 1.0
+    - Class: rviz_default_plugins/LaserScan
+      Name: LaserScan
+      Enabled: true
+      Topic: /scan
+      Size (m): 0.1
+      Color: 1; 1; 1
+    - Class: rviz_default_plugins/MarkerArray
+      Name: Markers
+      Enabled: true
+      Topic: /visualization_marker_array
+    - Class: rviz_default_plugins/PointCloud2
+      Name: PointCloud
+      Enabled: true
+      Topic: /points
+      Size (m): 0.1
+      Color Transformer: Intensity
+      Autostart: true
+  Enabled: true
+  Name: Visualization Manager
+  Tools:
+    - Class: rviz_default_plugins/Interact
+    - Class: rviz_default_plugins/MoveCamera
+    - Class: rviz_default_plugins/Select
+    - Class: rviz_default_plugins/FocusCamera
+    - Class: rviz_default_plugins/Measure
+    - Class: rviz_default_plugins/SetInitialPose
+      Topic: /initialpose
+    - Class: rviz_default_plugins/SetGoal
+      Topic: /goal_pose
+  Value: true
+  Fixed Frame: map

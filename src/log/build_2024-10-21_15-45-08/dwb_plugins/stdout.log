@@ -1,0 +1,7 @@
+[ 29%] Built target standard_traj_generator
+[ 41%] Built target gtest
+[ 52%] Built target gtest_main
+[ 64%] Built target vtest
+[ 76%] Built target kinematic_parameters_test
+[ 88%] Built target twist_gen_test
+[100%] Built target speed_limit_test

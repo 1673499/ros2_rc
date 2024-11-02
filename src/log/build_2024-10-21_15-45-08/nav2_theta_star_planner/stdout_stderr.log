@@ -1,0 +1,4 @@
+[ 33%] Built target nav2_theta_star_planner
+[ 55%] Built target gtest_main
+[ 77%] Built target gtest
+[100%] Built target test_theta_star

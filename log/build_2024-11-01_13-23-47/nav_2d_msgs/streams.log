@@ -1,0 +1,35 @@
+[0.138s] Invoking command in '/home/ros2/ros2_rc/build/nav_2d_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/ros2_rc/src/install/nav2_simple_commander:/home/ros2/ros2_rc/install/nav2_simple_commander:/opt/ros/humble /usr/bin/cmake --build /home/ros2/ros2_rc/build/nav_2d_msgs -- -j10 -l10
+[0.298s] [35m[1mConsolidate compiler generated dependencies of target nav_2d_msgs__rosidl_generator_c[0m
+[0.332s] [  1%] Built target nav_2d_msgs__cpp
+[0.344s] [ 12%] Built target nav_2d_msgs__rosidl_generator_c
+[0.438s] [ 12%] Built target ament_cmake_python_copy_nav_2d_msgs
+[0.453s] [35m[1mConsolidate compiler generated dependencies of target nav_2d_msgs__rosidl_typesupport_cpp[0m
+[0.460s] [35m[1mConsolidate compiler generated dependencies of target nav_2d_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[0.461s] [35m[1mConsolidate compiler generated dependencies of target nav_2d_msgs__rosidl_typesupport_introspection_cpp[0m
+[0.461s] [35m[1mConsolidate compiler generated dependencies of target nav_2d_msgs__rosidl_typesupport_c[0m
+[0.461s] [35m[1mConsolidate compiler generated dependencies of target nav_2d_msgs__rosidl_typesupport_introspection_c[0m
+[0.496s] [35m[1mConsolidate compiler generated dependencies of target nav_2d_msgs__rosidl_typesupport_fastrtps_c[0m
+[0.542s] [ 32%] Built target nav_2d_msgs__rosidl_typesupport_introspection_c
+[0.543s] [ 35%] Built target nav_2d_msgs__rosidl_typesupport_c
+[0.545s] [ 46%] Built target nav_2d_msgs__rosidl_typesupport_introspection_cpp
+[0.581s] [ 57%] Built target nav_2d_msgs__rosidl_typesupport_fastrtps_cpp
+[0.581s] [ 69%] Built target nav_2d_msgs__rosidl_typesupport_cpp
+[0.624s] [ 80%] Built target nav_2d_msgs__rosidl_typesupport_fastrtps_c
+[0.706s] [ 80%] Built target nav_2d_msgs
+[0.798s] [ 81%] Built target nav_2d_msgs__py
+[0.967s] [35m[1mConsolidate compiler generated dependencies of target nav_2d_msgs__rosidl_generator_py[0m
+[1.005s] [ 91%] Built target nav_2d_msgs__rosidl_generator_py
+[1.100s] [35m[1mConsolidate compiler generated dependencies of target nav_2d_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[1.110s] running egg_info
+[1.111s] writing nav_2d_msgs.egg-info/PKG-INFO
+[1.111s] writing dependency_links to nav_2d_msgs.egg-info/dependency_links.txt
+[1.112s] writing top-level names to nav_2d_msgs.egg-info/top_level.txt
+[1.143s] [35m[1mConsolidate compiler generated dependencies of target nav_2d_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[1.143s] reading manifest file 'nav_2d_msgs.egg-info/SOURCES.txt'
+[1.143s] writing manifest file 'nav_2d_msgs.egg-info/SOURCES.txt'
+[1.146s] [35m[1mConsolidate compiler generated dependencies of target nav_2d_msgs__rosidl_typesupport_c__pyext[0m
+[1.198s] [ 94%] Built target nav_2d_msgs__rosidl_typesupport_introspection_c__pyext
+[1.201s] [ 97%] Built target nav_2d_msgs__rosidl_typesupport_fastrtps_c__pyext
+[1.203s] [100%] Built target nav_2d_msgs__rosidl_typesupport_c__pyext
+[1.301s] [100%] Built target ament_cmake_python_build_nav_2d_msgs_egg
+[1.336s] Invoked command in '/home/ros2/ros2_rc/build/nav_2d_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/ros2_rc/src/install/nav2_simple_commander:/home/ros2/ros2_rc/install/nav2_simple_commander:/opt/ros/humble /usr/bin/cmake --build /home/ros2/ros2_rc/build/nav_2d_msgs -- -j10 -l10

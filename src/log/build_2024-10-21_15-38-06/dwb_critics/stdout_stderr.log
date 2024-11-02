@@ -1,0 +1,14 @@
+[35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[  7%] Built target gtest
+[35m[1mConsolidate compiler generated dependencies of target dwb_critics[0m
+[ 14%] Built target gtest_main
+[ 62%] Built target dwb_critics
+[35m[1mConsolidate compiler generated dependencies of target prefer_forward_tests[0m
+[ 66%] [32mBuilding CXX object test/CMakeFiles/base_obstacle_tests.dir/base_obstacle_test.cpp.o[0m
+[ 74%] Built target prefer_forward_tests
+[ 77%] [32mBuilding CXX object test/CMakeFiles/obstacle_footprint_tests.dir/obstacle_footprint_test.cpp.o[0m
+[35m[1mConsolidate compiler generated dependencies of target alignment_util_tests[0m
+[35m[1mConsolidate compiler generated dependencies of target twirling_tests[0m
+[ 85%] Built target twirling_tests
+[ 92%] Built target alignment_util_tests

@@ -1,0 +1,27 @@
+[0.267s] Invoking command in '/home/ros2/ros2_rc/src/build/car_gazebo_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/ros2_rc/src/install/nav2_simple_commander:/home/ros2/ros2_rc/install/nav2_simple_commander:/opt/ros/humble /usr/bin/cmake --build /home/ros2/ros2_rc/src/build/car_gazebo_plugin -- -j10 -l10
+[0.812s] [100%] Built target car_gazebo_plugin
+[0.889s] Invoked command in '/home/ros2/ros2_rc/src/build/car_gazebo_plugin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/ros2_rc/src/install/nav2_simple_commander:/home/ros2/ros2_rc/install/nav2_simple_commander:/opt/ros/humble /usr/bin/cmake --build /home/ros2/ros2_rc/src/build/car_gazebo_plugin -- -j10 -l10
+[1.721s] Invoking command in '/home/ros2/ros2_rc/src/build/car_gazebo_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/ros2_rc/src/install/nav2_simple_commander:/home/ros2/ros2_rc/install/nav2_simple_commander:/opt/ros/humble /usr/bin/cmake --install /home/ros2/ros2_rc/src/build/car_gazebo_plugin
+[1.802s] -- Install configuration: ""
+[1.803s] -- Up-to-date: /home/ros2/ros2_rc/src/install/car_gazebo_plugin/share/car_gazebo_plugin/environment/library_path.sh
+[1.803s] -- Up-to-date: /home/ros2/ros2_rc/src/install/car_gazebo_plugin/share/car_gazebo_plugin/environment/library_path.dsv
+[1.804s] -- Up-to-date: /home/ros2/ros2_rc/src/install/car_gazebo_plugin/share/ament_index/resource_index/package_run_dependencies/car_gazebo_plugin
+[1.804s] -- Up-to-date: /home/ros2/ros2_rc/src/install/car_gazebo_plugin/share/ament_index/resource_index/parent_prefix_path/car_gazebo_plugin
+[1.804s] -- Up-to-date: /home/ros2/ros2_rc/src/install/car_gazebo_plugin/share/car_gazebo_plugin/environment/ament_prefix_path.sh
+[1.804s] -- Up-to-date: /home/ros2/ros2_rc/src/install/car_gazebo_plugin/share/car_gazebo_plugin/environment/ament_prefix_path.dsv
+[1.804s] -- Up-to-date: /home/ros2/ros2_rc/src/install/car_gazebo_plugin/share/car_gazebo_plugin/environment/path.sh
+[1.805s] -- Up-to-date: /home/ros2/ros2_rc/src/install/car_gazebo_plugin/share/car_gazebo_plugin/environment/path.dsv
+[1.805s] -- Up-to-date: /home/ros2/ros2_rc/src/install/car_gazebo_plugin/share/car_gazebo_plugin/local_setup.bash
+[1.806s] -- Up-to-date: /home/ros2/ros2_rc/src/install/car_gazebo_plugin/share/car_gazebo_plugin/local_setup.sh
+[1.806s] -- Up-to-date: /home/ros2/ros2_rc/src/install/car_gazebo_plugin/share/car_gazebo_plugin/local_setup.zsh
+[1.806s] -- Up-to-date: /home/ros2/ros2_rc/src/install/car_gazebo_plugin/share/car_gazebo_plugin/local_setup.dsv
+[1.806s] -- Installing: /home/ros2/ros2_rc/src/install/car_gazebo_plugin/share/car_gazebo_plugin/package.dsv
+[1.806s] -- Up-to-date: /home/ros2/ros2_rc/src/install/car_gazebo_plugin/share/ament_index/resource_index/packages/car_gazebo_plugin
+[1.806s] -- Up-to-date: /home/ros2/ros2_rc/src/install/car_gazebo_plugin/share/car_gazebo_plugin/cmake/ament_cmake_export_libraries-extras.cmake
+[1.806s] -- Up-to-date: /home/ros2/ros2_rc/src/install/car_gazebo_plugin/share/car_gazebo_plugin/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.811s] -- Up-to-date: /home/ros2/ros2_rc/src/install/car_gazebo_plugin/share/car_gazebo_plugin/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.811s] -- Up-to-date: /home/ros2/ros2_rc/src/install/car_gazebo_plugin/share/car_gazebo_plugin/cmake/car_gazebo_pluginConfig.cmake
+[1.811s] -- Up-to-date: /home/ros2/ros2_rc/src/install/car_gazebo_plugin/share/car_gazebo_plugin/cmake/car_gazebo_pluginConfig-version.cmake
+[1.812s] -- Up-to-date: /home/ros2/ros2_rc/src/install/car_gazebo_plugin/share/car_gazebo_plugin/package.xml
+[1.812s] -- Up-to-date: /home/ros2/ros2_rc/src/install/car_gazebo_plugin/lib/libcar_gazebo_plugin.so
+[1.942s] Invoked command in '/home/ros2/ros2_rc/src/build/car_gazebo_plugin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/ros2_rc/src/install/nav2_simple_commander:/home/ros2/ros2_rc/install/nav2_simple_commander:/opt/ros/humble /usr/bin/cmake --install /home/ros2/ros2_rc/src/build/car_gazebo_plugin

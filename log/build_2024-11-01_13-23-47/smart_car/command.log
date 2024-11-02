@@ -1,0 +1,1 @@
+Invoking command in '/home/ros2/ros2_rc/build/smart_car': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/ros2_rc/src/install/nav2_simple_commander:/home/ros2/ros2_rc/install/nav2_simple_commander:/opt/ros/humble /usr/bin/cmake --build /home/ros2/ros2_rc/build/smart_car -- -j10 -l10

@@ -1,0 +1,19 @@
+[  0%] Built target nav2_msgs__cpp
+[35m[1mConsolidate compiler generated dependencies of target nav2_msgs__rosidl_generator_c[0m
+[ 12%] Built target nav2_msgs__rosidl_generator_c
+[35m[1mConsolidate compiler generated dependencies of target nav2_msgs__rosidl_typesupport_introspection_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target nav2_msgs__rosidl_typesupport_cpp[0m
+[ 25%] Built target nav2_msgs__rosidl_typesupport_introspection_cpp
+gmake[1]: *** [CMakeFiles/Makefile2:421: CMakeFiles/ament_cmake_python_copy_nav2_msgs.dir/all] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:370: CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_cpp.dir/all] Interrupt
+gmake[2]: *** [CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_cpp.dir/build.make:986: CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_cpp.dir/depend] Interrupt
+gmake[2]: *** [CMakeFiles/nav2_msgs__rosidl_typesupport_c.dir/build.make:861: CMakeFiles/nav2_msgs__rosidl_typesupport_c.dir/depend] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:290: CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_cpp.dir/all] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:342: CMakeFiles/nav2_msgs__rosidl_typesupport_c.dir/all] Interrupt
+gmake[2]: *** [CMakeFiles/nav2_msgs__rosidl_typesupport_cpp.dir/build.make:855: CMakeFiles/nav2_msgs__rosidl_typesupport_cpp.dir/depend] Interrupt
+gmake[2]: *** [CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_c.dir/build.make:991: CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_c.dir/depend] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:394: CMakeFiles/nav2_msgs__rosidl_typesupport_cpp.dir/all] Interrupt
+gmake[2]: *** [CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_c.dir/build.make:994: CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_c.dir/depend] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:316: CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_c.dir/all] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:238: CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_c.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

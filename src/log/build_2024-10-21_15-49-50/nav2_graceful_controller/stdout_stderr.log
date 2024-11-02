@@ -1,0 +1,8 @@
+[ 20%] Built target gtest_main
+[ 26%] Built target gtest
+[ 40%] Built target smooth_control_law
+[ 46%] [32mBuilding CXX object test/CMakeFiles/test_egopolar.dir/test_egopolar.cpp.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/nav2_graceful_controller.dir/src/path_handler.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/nav2_graceful_controller.dir/src/parameter_handler.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/nav2_graceful_controller.dir/src/graceful_controller.cpp.o[0m
+[ 73%] [32m[1mLinking CXX executable test_egopolar[0m

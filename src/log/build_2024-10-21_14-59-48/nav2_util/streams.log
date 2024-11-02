@@ -1,0 +1,169 @@
+[0.045s] Invoking command in '/home/ros2/ros2_rc/src/build/nav2_util': AMENT_PREFIX_PATH=/home/ros2/ros2_rc/src/install/nav2_msgs:/home/ros2/ros2_rc/src/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/ros2_rc/src/install/nav2_msgs:/home/ros2/ros2_rc/src/install/nav2_common:/home/ros2/ros2_rc/install/dwb_msgs:/home/ros2/ros2_rc/install/nav_2d_msgs:/home/ros2/ros2_rc/install/nav2_voxel_grid:/home/ros2/ros2_rc/install/nav2_msgs:/home/ros2/ros2_rc/install/nav2_common:/home/ros2/ros2_rc/install/smartcar_msgs:/home/ros2/ros2_rc/install/smart_car:/home/ros2/ros2_rc/install/ros2_rc:/home/ros2/ros2_rc/install/car_gazebo_plugin:/home/ros2/ros2_rc/src/install/smartcar_msgs:/home/ros2/ros2_rc/src/install/smart_car:/home/ros2/ros2_rc/src/install/ros2_rc:/home/ros2/ros2_rc/src/install/car_gazebo_plugin:/home/ros2/ros2_rc/install/nav2_simple_commander:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/ros2_rc/src/install/nav2_msgs/lib:/home/ros2/ros2_rc/install/dwb_msgs/lib:/home/ros2/ros2_rc/install/nav_2d_msgs/lib:/home/ros2/ros2_rc/install/nav2_voxel_grid/lib:/home/ros2/ros2_rc/install/nav2_msgs/lib:/home/ros2/ros2_rc/install/smartcar_msgs/lib:/home/ros2/ros2_rc/install/car_gazebo_plugin/lib:/home/ros2/ros2_rc/src/install/smartcar_msgs/lib:/home/ros2/ros2_rc/src/install/car_gazebo_plugin/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ros2/ros2_rc/src/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/ros2/ros2_rc/src/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ros2/ros2_rc/src/navigation2/nav2_util -DCMAKE_INSTALL_PREFIX=/home/ros2/ros2_rc/src/install/nav2_util
+[0.193s] -- The C compiler identification is GNU 11.4.0
+[0.330s] -- The CXX compiler identification is GNU 11.4.0
+[0.357s] -- Detecting C compiler ABI info
+[0.545s] -- Detecting C compiler ABI info - done
+[0.560s] -- Check for working C compiler: /usr/lib/ccache/gcc - skipped
+[0.563s] -- Detecting C compile features
+[0.563s] -- Detecting C compile features - done
+[0.569s] -- Detecting CXX compiler ABI info
+[0.735s] -- Detecting CXX compiler ABI info - done
+[0.749s] -- Check for working CXX compiler: /usr/lib/ccache/g++ - skipped
+[0.749s] -- Detecting CXX compile features
+[0.750s] -- Detecting CXX compile features - done
+[0.756s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.125s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.332s] -- Found nav2_common: 1.1.16 (/home/ros2/ros2_rc/src/install/nav2_common/share/nav2_common/cmake)
+[1.332s] -- Found nav2_msgs: 1.1.16 (/home/ros2/ros2_rc/src/install/nav2_msgs/share/nav2_msgs/cmake)
+[1.422s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.436s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.456s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.487s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.527s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.828s] -- Found tf2_ros: 0.25.8 (/opt/ros/humble/share/tf2_ros/cmake)
+[2.015s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.024s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[2.087s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[2.111s] -- Looking for pthread.h
+[2.330s] -- Looking for pthread.h - found
+[2.330s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.516s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.518s] -- Found Threads: TRUE  
+[2.755s] -- Found tf2_geometry_msgs: 0.25.8 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[2.795s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[2.797s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.797s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.808s] -- Found lifecycle_msgs: 1.2.1 (/opt/ros/humble/share/lifecycle_msgs/cmake)
+[2.840s] -- Found rclcpp_lifecycle: 16.0.10 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[2.874s] -- Found bondcpp: 3.0.2 (/opt/ros/humble/share/bondcpp/cmake)
+[2.952s] -- Setting build type to Release as none was specified.
+[3.018s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: program_options 
+[3.028s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.036s] -- Found ament_cmake_pytest: 1.3.10 (/opt/ros/humble/share/ament_cmake_pytest/cmake)
+[3.044s] -- Found launch_testing_ament_cmake: 1.0.6 (/opt/ros/humble/share/launch_testing_ament_cmake/cmake)
+[3.052s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.107s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[3.117s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[3.117s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.117s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.117s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[3.160s] -- Found PythonExtra: .so  
+[3.471s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[3.531s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.534s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.535s] -- Configured cppcheck include dirs: /home/ros2/ros2_rc/src/navigation2/nav2_util/include
+[3.535s] -- Configured cppcheck exclude dirs and/or files: 
+[3.539s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.539s] -- Configured cpplint exclude dirs and/or files: 
+[3.542s] -- Added test 'lint_cmake' to check CMake code style
+[3.547s] -- Added test 'uncrustify' to check C / C++ code style
+[3.547s] -- Configured uncrustify additional arguments: 
+[3.549s] -- Added test 'xmllint' to check XML markup files
+[3.556s] -- Configuring done
+[3.834s] -- Generating done
+[3.840s] -- Build files have been written to: /home/ros2/ros2_rc/src/build/nav2_util
+[3.873s] Invoked command in '/home/ros2/ros2_rc/src/build/nav2_util' returned '0': AMENT_PREFIX_PATH=/home/ros2/ros2_rc/src/install/nav2_msgs:/home/ros2/ros2_rc/src/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/ros2_rc/src/install/nav2_msgs:/home/ros2/ros2_rc/src/install/nav2_common:/home/ros2/ros2_rc/install/dwb_msgs:/home/ros2/ros2_rc/install/nav_2d_msgs:/home/ros2/ros2_rc/install/nav2_voxel_grid:/home/ros2/ros2_rc/install/nav2_msgs:/home/ros2/ros2_rc/install/nav2_common:/home/ros2/ros2_rc/install/smartcar_msgs:/home/ros2/ros2_rc/install/smart_car:/home/ros2/ros2_rc/install/ros2_rc:/home/ros2/ros2_rc/install/car_gazebo_plugin:/home/ros2/ros2_rc/src/install/smartcar_msgs:/home/ros2/ros2_rc/src/install/smart_car:/home/ros2/ros2_rc/src/install/ros2_rc:/home/ros2/ros2_rc/src/install/car_gazebo_plugin:/home/ros2/ros2_rc/install/nav2_simple_commander:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/ros2_rc/src/install/nav2_msgs/lib:/home/ros2/ros2_rc/install/dwb_msgs/lib:/home/ros2/ros2_rc/install/nav_2d_msgs/lib:/home/ros2/ros2_rc/install/nav2_voxel_grid/lib:/home/ros2/ros2_rc/install/nav2_msgs/lib:/home/ros2/ros2_rc/install/smartcar_msgs/lib:/home/ros2/ros2_rc/install/car_gazebo_plugin/lib:/home/ros2/ros2_rc/src/install/smartcar_msgs/lib:/home/ros2/ros2_rc/src/install/car_gazebo_plugin/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ros2/ros2_rc/src/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/ros2/ros2_rc/src/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ros2/ros2_rc/src/navigation2/nav2_util -DCMAKE_INSTALL_PREFIX=/home/ros2/ros2_rc/src/install/nav2_util
+[3.878s] Invoking command in '/home/ros2/ros2_rc/src/build/nav2_util': AMENT_PREFIX_PATH=/home/ros2/ros2_rc/src/install/nav2_msgs:/home/ros2/ros2_rc/src/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/ros2_rc/src/install/nav2_msgs:/home/ros2/ros2_rc/src/install/nav2_common:/home/ros2/ros2_rc/install/dwb_msgs:/home/ros2/ros2_rc/install/nav_2d_msgs:/home/ros2/ros2_rc/install/nav2_voxel_grid:/home/ros2/ros2_rc/install/nav2_msgs:/home/ros2/ros2_rc/install/nav2_common:/home/ros2/ros2_rc/install/smartcar_msgs:/home/ros2/ros2_rc/install/smart_car:/home/ros2/ros2_rc/install/ros2_rc:/home/ros2/ros2_rc/install/car_gazebo_plugin:/home/ros2/ros2_rc/src/install/smartcar_msgs:/home/ros2/ros2_rc/src/install/smart_car:/home/ros2/ros2_rc/src/install/ros2_rc:/home/ros2/ros2_rc/src/install/car_gazebo_plugin:/home/ros2/ros2_rc/install/nav2_simple_commander:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/ros2_rc/src/install/nav2_msgs/lib:/home/ros2/ros2_rc/install/dwb_msgs/lib:/home/ros2/ros2_rc/install/nav_2d_msgs/lib:/home/ros2/ros2_rc/install/nav2_voxel_grid/lib:/home/ros2/ros2_rc/install/nav2_msgs/lib:/home/ros2/ros2_rc/install/smartcar_msgs/lib:/home/ros2/ros2_rc/install/car_gazebo_plugin/lib:/home/ros2/ros2_rc/src/install/smartcar_msgs/lib:/home/ros2/ros2_rc/src/install/car_gazebo_plugin/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ros2/ros2_rc/src/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/ros2/ros2_rc/src/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ros2/ros2_rc/src/build/nav2_util -- -j9 -l9
+[3.998s] [  5%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/string_utils.cpp.o[0m
+[4.002s] [  5%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[4.002s] [  7%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/node_utils.cpp.o[0m
+[4.002s] [ 10%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[4.002s] [ 12%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/costmap.cpp.o[0m
+[4.003s] [ 15%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/lifecycle_service_client.cpp.o[0m
+[4.015s] [ 17%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/lifecycle_utils.cpp.o[0m
+[4.026s] [ 20%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/lifecycle_node.cpp.o[0m
+[4.035s] [ 22%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/robot_utils.cpp.o[0m
+[4.051s] [ 25%] [32m[1mLinking CXX static library libgtest.a[0m
+[4.067s] [ 27%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[4.241s] [ 27%] Built target gtest
+[4.251s] [ 30%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/node_thread.cpp.o[0m
+[4.271s] [ 32%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/odometry_utils.cpp.o[0m
+[4.273s] [ 32%] Built target gtest_main
+[4.440s] [ 35%] [32mBuilding CXX object test/CMakeFiles/test_execution_timer.dir/test_execution_timer.cpp.o[0m
+[4.549s] [ 37%] [32m[1mLinking CXX executable test_execution_timer[0m
+[4.939s] [ 37%] Built target test_execution_timer
+[9.981s] [ 40%] [32m[1mLinking CXX shared library libnav2_util_core.so[0m
+[10.399s] [ 40%] Built target nav2_util_core
+[10.440s] [ 42%] [32mBuilding CXX object src/CMakeFiles/lifecycle_bringup.dir/lifecycle_bringup_commandline.cpp.o[0m
+[10.446s] [ 45%] [32mBuilding CXX object test/CMakeFiles/test_service_client.dir/test_service_client.cpp.o[0m
+[10.446s] [ 47%] [32mBuilding CXX object test/CMakeFiles/test_node_utils.dir/test_node_utils.cpp.o[0m
+[10.447s] [ 52%] [32mBuilding CXX object test/CMakeFiles/test_lifecycle_node.dir/test_lifecycle_node.cpp.o[0m
+[10.447s] [ 52%] [32mBuilding CXX object test/CMakeFiles/test_actions.dir/test_actions.cpp.o[0m
+[10.461s] [ 55%] [32mBuilding CXX object test/CMakeFiles/test_lifecycle_utils.dir/test_lifecycle_utils.cpp.o[0m
+[10.462s] [ 57%] [32mBuilding CXX object test/CMakeFiles/test_string_utils.dir/test_string_utils.cpp.o[0m
+[10.473s] [ 60%] [32mBuilding CXX object test/CMakeFiles/test_lifecycle_cli_node.dir/test_lifecycle_cli_node.cpp.o[0m
+[10.522s] [ 62%] [32mBuilding CXX object test/CMakeFiles/test_geometry_utils.dir/test_geometry_utils.cpp.o[0m
+[10.874s] [ 65%] [32m[1mLinking CXX executable test_string_utils[0m
+[10.970s] [ 67%] [32m[1mLinking CXX executable lifecycle_bringup[0m
+[11.088s] [ 70%] [32m[1mLinking CXX executable test_node_utils[0m
+[11.193s] [ 72%] [32m[1mLinking CXX executable test_lifecycle_node[0m
+[11.265s] [ 75%] [32m[1mLinking CXX executable test_lifecycle_cli_node[0m
+[11.320s] [ 77%] [32m[1mLinking CXX executable test_lifecycle_utils[0m
+[11.629s] [ 77%] Built target lifecycle_bringup
+[11.648s] [ 77%] Built target test_string_utils
+[11.691s] [ 80%] [32m[1mLinking CXX executable test_geometry_utils[0m
+[11.691s] [ 82%] [32mBuilding CXX object test/CMakeFiles/test_robot_utils.dir/test_robot_utils.cpp.o[0m
+[11.729s] [ 85%] [32mBuilding CXX object test/CMakeFiles/test_odometry_utils.dir/test_odometry_utils.cpp.o[0m
+[12.061s] [ 85%] Built target test_node_utils
+[12.131s] [ 87%] [32mBuilding CXX object test/CMakeFiles/test_validation_messages.dir/test_validation_messages.cpp.o[0m
+[12.188s] [ 87%] Built target test_lifecycle_node
+[12.204s] [ 87%] Built target test_lifecycle_cli_node
+[12.230s] [ 87%] Built target test_lifecycle_utils
+[12.463s] [ 87%] Built target test_geometry_utils
+[15.481s] [ 90%] [32m[1mLinking CXX executable test_validation_messages[0m
+[16.087s] [ 90%] Built target test_validation_messages
+[18.835s] [ 92%] [32m[1mLinking CXX executable test_robot_utils[0m
+[19.530s] [ 92%] Built target test_robot_utils
+[23.673s] [ 95%] [32m[1mLinking CXX executable test_odometry_utils[0m
+[24.373s] [ 95%] Built target test_odometry_utils
+[34.179s] [ 97%] [32m[1mLinking CXX executable test_service_client[0m
+[34.789s] [ 97%] Built target test_service_client
+[40.056s] [100%] [32m[1mLinking CXX executable test_actions[0m
+[40.709s] [100%] Built target test_actions
+[40.736s] Invoked command in '/home/ros2/ros2_rc/src/build/nav2_util' returned '0': AMENT_PREFIX_PATH=/home/ros2/ros2_rc/src/install/nav2_msgs:/home/ros2/ros2_rc/src/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/ros2_rc/src/install/nav2_msgs:/home/ros2/ros2_rc/src/install/nav2_common:/home/ros2/ros2_rc/install/dwb_msgs:/home/ros2/ros2_rc/install/nav_2d_msgs:/home/ros2/ros2_rc/install/nav2_voxel_grid:/home/ros2/ros2_rc/install/nav2_msgs:/home/ros2/ros2_rc/install/nav2_common:/home/ros2/ros2_rc/install/smartcar_msgs:/home/ros2/ros2_rc/install/smart_car:/home/ros2/ros2_rc/install/ros2_rc:/home/ros2/ros2_rc/install/car_gazebo_plugin:/home/ros2/ros2_rc/src/install/smartcar_msgs:/home/ros2/ros2_rc/src/install/smart_car:/home/ros2/ros2_rc/src/install/ros2_rc:/home/ros2/ros2_rc/src/install/car_gazebo_plugin:/home/ros2/ros2_rc/install/nav2_simple_commander:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/ros2_rc/src/install/nav2_msgs/lib:/home/ros2/ros2_rc/install/dwb_msgs/lib:/home/ros2/ros2_rc/install/nav_2d_msgs/lib:/home/ros2/ros2_rc/install/nav2_voxel_grid/lib:/home/ros2/ros2_rc/install/nav2_msgs/lib:/home/ros2/ros2_rc/install/smartcar_msgs/lib:/home/ros2/ros2_rc/install/car_gazebo_plugin/lib:/home/ros2/ros2_rc/src/install/smartcar_msgs/lib:/home/ros2/ros2_rc/src/install/car_gazebo_plugin/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ros2/ros2_rc/src/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/ros2/ros2_rc/src/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ros2/ros2_rc/src/build/nav2_util -- -j9 -l9
+[40.810s] Invoking command in '/home/ros2/ros2_rc/src/build/nav2_util': AMENT_PREFIX_PATH=/home/ros2/ros2_rc/src/install/nav2_msgs:/home/ros2/ros2_rc/src/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/ros2_rc/src/install/nav2_msgs:/home/ros2/ros2_rc/src/install/nav2_common:/home/ros2/ros2_rc/install/dwb_msgs:/home/ros2/ros2_rc/install/nav_2d_msgs:/home/ros2/ros2_rc/install/nav2_voxel_grid:/home/ros2/ros2_rc/install/nav2_msgs:/home/ros2/ros2_rc/install/nav2_common:/home/ros2/ros2_rc/install/smartcar_msgs:/home/ros2/ros2_rc/install/smart_car:/home/ros2/ros2_rc/install/ros2_rc:/home/ros2/ros2_rc/install/car_gazebo_plugin:/home/ros2/ros2_rc/src/install/smartcar_msgs:/home/ros2/ros2_rc/src/install/smart_car:/home/ros2/ros2_rc/src/install/ros2_rc:/home/ros2/ros2_rc/src/install/car_gazebo_plugin:/home/ros2/ros2_rc/install/nav2_simple_commander:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/ros2_rc/src/install/nav2_msgs/lib:/home/ros2/ros2_rc/install/dwb_msgs/lib:/home/ros2/ros2_rc/install/nav_2d_msgs/lib:/home/ros2/ros2_rc/install/nav2_voxel_grid/lib:/home/ros2/ros2_rc/install/nav2_msgs/lib:/home/ros2/ros2_rc/install/smartcar_msgs/lib:/home/ros2/ros2_rc/install/car_gazebo_plugin/lib:/home/ros2/ros2_rc/src/install/smartcar_msgs/lib:/home/ros2/ros2_rc/src/install/car_gazebo_plugin/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ros2/ros2_rc/src/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/ros2/ros2_rc/src/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ros2/ros2_rc/src/build/nav2_util
+[40.819s] -- Install configuration: "Release"
+[40.819s] -- Installing: /home/ros2/ros2_rc/src/install/nav2_util/include/
+[40.819s] -- Installing: /home/ros2/ros2_rc/src/install/nav2_util/include//nav2_util
+[40.820s] -- Installing: /home/ros2/ros2_rc/src/install/nav2_util/include//nav2_util/lifecycle_utils.hpp
+[40.820s] -- Installing: /home/ros2/ros2_rc/src/install/nav2_util/include//nav2_util/geometry_utils.hpp
+[40.820s] -- Installing: /home/ros2/ros2_rc/src/install/nav2_util/include//nav2_util/lifecycle_node.hpp
+[40.820s] -- Installing: /home/ros2/ros2_rc/src/install/nav2_util/include//nav2_util/simple_action_server.hpp
+[40.820s] -- Installing: /home/ros2/ros2_rc/src/install/nav2_util/include//nav2_util/node_thread.hpp
+[40.820s] -- Installing: /home/ros2/ros2_rc/src/install/nav2_util/include//nav2_util/line_iterator.hpp
+[40.821s] -- Installing: /home/ros2/ros2_rc/src/install/nav2_util/include//nav2_util/service_client.hpp
+[40.821s] -- Installing: /home/ros2/ros2_rc/src/install/nav2_util/include//nav2_util/odometry_utils.hpp
+[40.821s] -- Installing: /home/ros2/ros2_rc/src/install/nav2_util/include//nav2_util/costmap.hpp
+[40.821s] -- Installing: /home/ros2/ros2_rc/src/install/nav2_util/include//nav2_util/lifecycle_service_client.hpp
+[40.821s] -- Installing: /home/ros2/ros2_rc/src/install/nav2_util/include//nav2_util/occ_grid_values.hpp
+[40.822s] -- Installing: /home/ros2/ros2_rc/src/install/nav2_util/include//nav2_util/string_utils.hpp
+[40.822s] -- Installing: /home/ros2/ros2_rc/src/install/nav2_util/include//nav2_util/node_utils.hpp
+[40.822s] -- Installing: /home/ros2/ros2_rc/src/install/nav2_util/include//nav2_util/clear_entirely_costmap_service_client.hpp
+[40.823s] -- Installing: /home/ros2/ros2_rc/src/install/nav2_util/include//nav2_util/execution_timer.hpp
+[40.823s] -- Installing: /home/ros2/ros2_rc/src/install/nav2_util/include//nav2_util/validate_messages.hpp
+[40.823s] -- Installing: /home/ros2/ros2_rc/src/install/nav2_util/include//nav2_util/robot_utils.hpp
+[40.824s] -- Installing: /home/ros2/ros2_rc/src/install/nav2_util/share/nav2_util/environment/library_path.sh
+[40.824s] -- Installing: /home/ros2/ros2_rc/src/install/nav2_util/share/nav2_util/environment/library_path.dsv
+[40.825s] -- Installing: /home/ros2/ros2_rc/src/install/nav2_util/share/ament_index/resource_index/package_run_dependencies/nav2_util
+[40.825s] -- Installing: /home/ros2/ros2_rc/src/install/nav2_util/share/ament_index/resource_index/parent_prefix_path/nav2_util
+[40.825s] -- Installing: /home/ros2/ros2_rc/src/install/nav2_util/share/nav2_util/environment/ament_prefix_path.sh
+[40.826s] -- Installing: /home/ros2/ros2_rc/src/install/nav2_util/share/nav2_util/environment/ament_prefix_path.dsv
+[40.826s] -- Installing: /home/ros2/ros2_rc/src/install/nav2_util/share/nav2_util/environment/path.sh
+[40.827s] -- Installing: /home/ros2/ros2_rc/src/install/nav2_util/share/nav2_util/environment/path.dsv
+[40.828s] -- Installing: /home/ros2/ros2_rc/src/install/nav2_util/share/nav2_util/local_setup.bash
+[40.828s] -- Installing: /home/ros2/ros2_rc/src/install/nav2_util/share/nav2_util/local_setup.sh
+[40.828s] -- Installing: /home/ros2/ros2_rc/src/install/nav2_util/share/nav2_util/local_setup.zsh
+[40.829s] -- Installing: /home/ros2/ros2_rc/src/install/nav2_util/share/nav2_util/local_setup.dsv
+[40.829s] -- Installing: /home/ros2/ros2_rc/src/install/nav2_util/share/nav2_util/package.dsv
+[40.829s] -- Installing: /home/ros2/ros2_rc/src/install/nav2_util/share/ament_index/resource_index/packages/nav2_util
+[40.830s] -- Installing: /home/ros2/ros2_rc/src/install/nav2_util/share/nav2_util/cmake/ament_cmake_export_include_directories-extras.cmake
+[40.830s] -- Installing: /home/ros2/ros2_rc/src/install/nav2_util/share/nav2_util/cmake/ament_cmake_export_libraries-extras.cmake
+[40.831s] -- Installing: /home/ros2/ros2_rc/src/install/nav2_util/share/nav2_util/cmake/ament_cmake_export_dependencies-extras.cmake
+[40.831s] -- Installing: /home/ros2/ros2_rc/src/install/nav2_util/share/nav2_util/cmake/nav2_utilConfig.cmake
+[40.831s] -- Installing: /home/ros2/ros2_rc/src/install/nav2_util/share/nav2_util/cmake/nav2_utilConfig-version.cmake
+[40.831s] -- Installing: /home/ros2/ros2_rc/src/install/nav2_util/share/nav2_util/package.xml
+[40.832s] -- Installing: /home/ros2/ros2_rc/src/install/nav2_util/lib/libnav2_util_core.so
+[40.835s] -- Set runtime path of "/home/ros2/ros2_rc/src/install/nav2_util/lib/libnav2_util_core.so" to ""
+[40.836s] -- Installing: /home/ros2/ros2_rc/src/install/nav2_util/lib/nav2_util/lifecycle_bringup
+[40.836s] -- Set runtime path of "/home/ros2/ros2_rc/src/install/nav2_util/lib/nav2_util/lifecycle_bringup" to ""
+[40.842s] Invoked command in '/home/ros2/ros2_rc/src/build/nav2_util' returned '0': AMENT_PREFIX_PATH=/home/ros2/ros2_rc/src/install/nav2_msgs:/home/ros2/ros2_rc/src/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/ros2_rc/src/install/nav2_msgs:/home/ros2/ros2_rc/src/install/nav2_common:/home/ros2/ros2_rc/install/dwb_msgs:/home/ros2/ros2_rc/install/nav_2d_msgs:/home/ros2/ros2_rc/install/nav2_voxel_grid:/home/ros2/ros2_rc/install/nav2_msgs:/home/ros2/ros2_rc/install/nav2_common:/home/ros2/ros2_rc/install/smartcar_msgs:/home/ros2/ros2_rc/install/smart_car:/home/ros2/ros2_rc/install/ros2_rc:/home/ros2/ros2_rc/install/car_gazebo_plugin:/home/ros2/ros2_rc/src/install/smartcar_msgs:/home/ros2/ros2_rc/src/install/smart_car:/home/ros2/ros2_rc/src/install/ros2_rc:/home/ros2/ros2_rc/src/install/car_gazebo_plugin:/home/ros2/ros2_rc/install/nav2_simple_commander:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/ros2_rc/src/install/nav2_msgs/lib:/home/ros2/ros2_rc/install/dwb_msgs/lib:/home/ros2/ros2_rc/install/nav_2d_msgs/lib:/home/ros2/ros2_rc/install/nav2_voxel_grid/lib:/home/ros2/ros2_rc/install/nav2_msgs/lib:/home/ros2/ros2_rc/install/smartcar_msgs/lib:/home/ros2/ros2_rc/install/car_gazebo_plugin/lib:/home/ros2/ros2_rc/src/install/smartcar_msgs/lib:/home/ros2/ros2_rc/src/install/car_gazebo_plugin/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ros2/ros2_rc/src/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/ros2/ros2_rc/src/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ros2/ros2_rc/src/build/nav2_util

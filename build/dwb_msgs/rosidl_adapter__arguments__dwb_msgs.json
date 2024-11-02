@@ -1,0 +1,14 @@
+{
+  "package_name": "dwb_msgs",
+  "non_idl_tuples": [
+    "/home/ros2/ros2_rc/src/navigation2/nav2_dwb_controller/dwb_msgs:msg/CriticScore.msg",
+    "/home/ros2/ros2_rc/src/navigation2/nav2_dwb_controller/dwb_msgs:msg/LocalPlanEvaluation.msg",
+    "/home/ros2/ros2_rc/src/navigation2/nav2_dwb_controller/dwb_msgs:msg/Trajectory2D.msg",
+    "/home/ros2/ros2_rc/src/navigation2/nav2_dwb_controller/dwb_msgs:msg/TrajectoryScore.msg",
+    "/home/ros2/ros2_rc/src/navigation2/nav2_dwb_controller/dwb_msgs:srv/DebugLocalPlan.srv",
+    "/home/ros2/ros2_rc/src/navigation2/nav2_dwb_controller/dwb_msgs:srv/GenerateTrajectory.srv",
+    "/home/ros2/ros2_rc/src/navigation2/nav2_dwb_controller/dwb_msgs:srv/GenerateTwists.srv",
+    "/home/ros2/ros2_rc/src/navigation2/nav2_dwb_controller/dwb_msgs:srv/GetCriticScore.srv",
+    "/home/ros2/ros2_rc/src/navigation2/nav2_dwb_controller/dwb_msgs:srv/ScoreTrajectory.srv"
+  ]
+}

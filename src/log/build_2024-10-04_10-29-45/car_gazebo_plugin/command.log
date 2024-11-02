@@ -1,0 +1,2 @@
+Invoking command in '/home/ros2/ros2_rc/src/build/car_gazebo_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ros2/ros2_rc/src/car_gazebo_plugin -DCMAKE_INSTALL_PREFIX=/home/ros2/ros2_rc/src/install/car_gazebo_plugin
+Invoked command in '/home/ros2/ros2_rc/src/build/car_gazebo_plugin' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ros2/ros2_rc/src/car_gazebo_plugin -DCMAKE_INSTALL_PREFIX=/home/ros2/ros2_rc/src/install/car_gazebo_plugin

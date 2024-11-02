@@ -1,0 +1,69 @@
+[0.073s] Invoking command in '/home/ros2/ros2_rc/src/build/nav2_map_server': CMAKE_PREFIX_PATH=/home/ros2/ros2_rc/src/install/nav2_util:/home/ros2/ros2_rc/src/install/nav2_msgs:/home/ros2/ros2_rc/src/install/nav2_common:/home/ros2/ros2_rc/src/install/smartcar_msgs:/home/ros2/ros2_rc/src/install/smart_car:/home/ros2/ros2_rc/src/install/ros2_rc:/home/ros2/ros2_rc/src/install/nav_2d_utils:/home/ros2/ros2_rc/src/install/dwb_msgs:/home/ros2/ros2_rc/src/install/nav_2d_msgs:/home/ros2/ros2_rc/src/install/nav2_voxel_grid:/home/ros2/ros2_rc/src/install/nav2_velocity_smoother:/home/ros2/ros2_rc/src/install/nav2_rviz_plugins:/home/ros2/ros2_rc/src/install/nav2_map_server:/home/ros2/ros2_rc/src/install/nav2_lifecycle_manager:/home/ros2/ros2_rc/src/install/nav2_amcl:/home/ros2/ros2_rc/src/install/car_gazebo_plugin:/home/ros2/ros2_rc/src/install/nav2_simple_commander:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/ros2_rc/src/install/nav2_util/lib:/home/ros2/ros2_rc/src/install/nav2_msgs/lib:/home/ros2/ros2_rc/src/install/smartcar_msgs/lib:/home/ros2/ros2_rc/src/install/nav_2d_utils/lib:/home/ros2/ros2_rc/src/install/dwb_msgs/lib:/home/ros2/ros2_rc/src/install/nav_2d_msgs/lib:/home/ros2/ros2_rc/src/install/nav2_voxel_grid/lib:/home/ros2/ros2_rc/src/install/nav2_velocity_smoother/lib:/home/ros2/ros2_rc/src/install/nav2_rviz_plugins/lib:/home/ros2/ros2_rc/src/install/nav2_map_server/lib:/home/ros2/ros2_rc/src/install/nav2_lifecycle_manager/lib:/home/ros2/ros2_rc/src/install/nav2_amcl/lib:/home/ros2/ros2_rc/src/install/car_gazebo_plugin/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/ros2/ros2_rc/src/build/nav2_map_server -- -j9 -l9
+[0.231s] [35m[1mConsolidate compiler generated dependencies of target map_io[0m
+[0.231s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[0.233s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[0.285s] [  5%] Built target gtest_main
+[0.285s] [ 11%] Built target gtest
+[0.332s] [ 19%] Built target map_io
+[0.384s] [35m[1mConsolidate compiler generated dependencies of target test_map_saver_cli[0m
+[0.433s] [35m[1mConsolidate compiler generated dependencies of target test_map_saver_publisher[0m
+[0.438s] [35m[1mConsolidate compiler generated dependencies of target test_map_io[0m
+[0.451s] [35m[1mConsolidate compiler generated dependencies of target map_server_core[0m
+[0.489s] [ 27%] Built target test_map_saver_publisher
+[0.501s] [ 36%] Built target test_map_saver_cli
+[0.541s] [ 55%] Built target map_server_core
+[0.548s] [ 55%] Built target test_map_io
+[0.600s] [35m[1mConsolidate compiler generated dependencies of target map_saver_server[0m
+[0.614s] [35m[1mConsolidate compiler generated dependencies of target map_server[0m
+[0.615s] [35m[1mConsolidate compiler generated dependencies of target map_saver_cli[0m
+[0.631s] [35m[1mConsolidate compiler generated dependencies of target test_costmap_filter_info_server[0m
+[0.633s] [35m[1mConsolidate compiler generated dependencies of target test_map_saver_node[0m
+[0.634s] [35m[1mConsolidate compiler generated dependencies of target costmap_filter_info_server[0m
+[0.649s] [35m[1mConsolidate compiler generated dependencies of target test_map_server_node[0m
+[0.677s] [ 61%] Built target map_saver_server
+[0.703s] [ 66%] Built target map_server
+[0.711s] [ 72%] Built target test_costmap_filter_info_server
+[0.718s] [ 77%] Built target map_saver_cli
+[0.719s] [ 86%] Built target test_map_saver_node
+[0.724s] [ 94%] Built target test_map_server_node
+[0.726s] [100%] Built target costmap_filter_info_server
+[0.783s] Invoked command in '/home/ros2/ros2_rc/src/build/nav2_map_server' returned '0': CMAKE_PREFIX_PATH=/home/ros2/ros2_rc/src/install/nav2_util:/home/ros2/ros2_rc/src/install/nav2_msgs:/home/ros2/ros2_rc/src/install/nav2_common:/home/ros2/ros2_rc/src/install/smartcar_msgs:/home/ros2/ros2_rc/src/install/smart_car:/home/ros2/ros2_rc/src/install/ros2_rc:/home/ros2/ros2_rc/src/install/nav_2d_utils:/home/ros2/ros2_rc/src/install/dwb_msgs:/home/ros2/ros2_rc/src/install/nav_2d_msgs:/home/ros2/ros2_rc/src/install/nav2_voxel_grid:/home/ros2/ros2_rc/src/install/nav2_velocity_smoother:/home/ros2/ros2_rc/src/install/nav2_rviz_plugins:/home/ros2/ros2_rc/src/install/nav2_map_server:/home/ros2/ros2_rc/src/install/nav2_lifecycle_manager:/home/ros2/ros2_rc/src/install/nav2_amcl:/home/ros2/ros2_rc/src/install/car_gazebo_plugin:/home/ros2/ros2_rc/src/install/nav2_simple_commander:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/ros2_rc/src/install/nav2_util/lib:/home/ros2/ros2_rc/src/install/nav2_msgs/lib:/home/ros2/ros2_rc/src/install/smartcar_msgs/lib:/home/ros2/ros2_rc/src/install/nav_2d_utils/lib:/home/ros2/ros2_rc/src/install/dwb_msgs/lib:/home/ros2/ros2_rc/src/install/nav_2d_msgs/lib:/home/ros2/ros2_rc/src/install/nav2_voxel_grid/lib:/home/ros2/ros2_rc/src/install/nav2_velocity_smoother/lib:/home/ros2/ros2_rc/src/install/nav2_rviz_plugins/lib:/home/ros2/ros2_rc/src/install/nav2_map_server/lib:/home/ros2/ros2_rc/src/install/nav2_lifecycle_manager/lib:/home/ros2/ros2_rc/src/install/nav2_amcl/lib:/home/ros2/ros2_rc/src/install/car_gazebo_plugin/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/ros2/ros2_rc/src/build/nav2_map_server -- -j9 -l9
+[1.018s] Invoking command in '/home/ros2/ros2_rc/src/build/nav2_map_server': CMAKE_PREFIX_PATH=/home/ros2/ros2_rc/src/install/nav2_util:/home/ros2/ros2_rc/src/install/nav2_msgs:/home/ros2/ros2_rc/src/install/nav2_common:/home/ros2/ros2_rc/src/install/smartcar_msgs:/home/ros2/ros2_rc/src/install/smart_car:/home/ros2/ros2_rc/src/install/ros2_rc:/home/ros2/ros2_rc/src/install/nav_2d_utils:/home/ros2/ros2_rc/src/install/dwb_msgs:/home/ros2/ros2_rc/src/install/nav_2d_msgs:/home/ros2/ros2_rc/src/install/nav2_voxel_grid:/home/ros2/ros2_rc/src/install/nav2_velocity_smoother:/home/ros2/ros2_rc/src/install/nav2_rviz_plugins:/home/ros2/ros2_rc/src/install/nav2_map_server:/home/ros2/ros2_rc/src/install/nav2_lifecycle_manager:/home/ros2/ros2_rc/src/install/nav2_amcl:/home/ros2/ros2_rc/src/install/car_gazebo_plugin:/home/ros2/ros2_rc/src/install/nav2_simple_commander:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/ros2_rc/src/install/nav2_util/lib:/home/ros2/ros2_rc/src/install/nav2_msgs/lib:/home/ros2/ros2_rc/src/install/smartcar_msgs/lib:/home/ros2/ros2_rc/src/install/nav_2d_utils/lib:/home/ros2/ros2_rc/src/install/dwb_msgs/lib:/home/ros2/ros2_rc/src/install/nav_2d_msgs/lib:/home/ros2/ros2_rc/src/install/nav2_voxel_grid/lib:/home/ros2/ros2_rc/src/install/nav2_velocity_smoother/lib:/home/ros2/ros2_rc/src/install/nav2_rviz_plugins/lib:/home/ros2/ros2_rc/src/install/nav2_map_server/lib:/home/ros2/ros2_rc/src/install/nav2_lifecycle_manager/lib:/home/ros2/ros2_rc/src/install/nav2_amcl/lib:/home/ros2/ros2_rc/src/install/car_gazebo_plugin/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/ros2/ros2_rc/src/build/nav2_map_server
+[1.074s] -- Install configuration: "Release"
+[1.074s] -- Up-to-date: /home/ros2/ros2_rc/src/install/nav2_map_server/lib/libmap_server_core.so
+[1.074s] -- Up-to-date: /home/ros2/ros2_rc/src/install/nav2_map_server/lib/libmap_io.so
+[1.075s] -- Up-to-date: /home/ros2/ros2_rc/src/install/nav2_map_server/lib/nav2_map_server/map_server
+[1.075s] -- Up-to-date: /home/ros2/ros2_rc/src/install/nav2_map_server/lib/nav2_map_server/map_saver_cli
+[1.075s] -- Up-to-date: /home/ros2/ros2_rc/src/install/nav2_map_server/lib/nav2_map_server/map_saver_server
+[1.075s] -- Up-to-date: /home/ros2/ros2_rc/src/install/nav2_map_server/lib/nav2_map_server/costmap_filter_info_server
+[1.075s] -- Up-to-date: /home/ros2/ros2_rc/src/install/nav2_map_server/include/
+[1.076s] -- Up-to-date: /home/ros2/ros2_rc/src/install/nav2_map_server/include//nav2_map_server
+[1.076s] -- Up-to-date: /home/ros2/ros2_rc/src/install/nav2_map_server/include//nav2_map_server/map_mode.hpp
+[1.076s] -- Up-to-date: /home/ros2/ros2_rc/src/install/nav2_map_server/include//nav2_map_server/map_server.hpp
+[1.076s] -- Up-to-date: /home/ros2/ros2_rc/src/install/nav2_map_server/include//nav2_map_server/map_io.hpp
+[1.076s] -- Up-to-date: /home/ros2/ros2_rc/src/install/nav2_map_server/include//nav2_map_server/map_saver.hpp
+[1.076s] -- Up-to-date: /home/ros2/ros2_rc/src/install/nav2_map_server/include//nav2_map_server/costmap_filter_info_server.hpp
+[1.076s] -- Up-to-date: /home/ros2/ros2_rc/src/install/nav2_map_server/share/nav2_map_server/launch
+[1.077s] -- Up-to-date: /home/ros2/ros2_rc/src/install/nav2_map_server/share/nav2_map_server/launch/map_saver_server.launch.py
+[1.077s] -- Up-to-date: /home/ros2/ros2_rc/src/install/nav2_map_server/share/nav2_map_server/environment/library_path.sh
+[1.077s] -- Up-to-date: /home/ros2/ros2_rc/src/install/nav2_map_server/share/nav2_map_server/environment/library_path.dsv
+[1.078s] -- Up-to-date: /home/ros2/ros2_rc/src/install/nav2_map_server/share/ament_index/resource_index/package_run_dependencies/nav2_map_server
+[1.078s] -- Up-to-date: /home/ros2/ros2_rc/src/install/nav2_map_server/share/ament_index/resource_index/parent_prefix_path/nav2_map_server
+[1.079s] -- Up-to-date: /home/ros2/ros2_rc/src/install/nav2_map_server/share/nav2_map_server/environment/ament_prefix_path.sh
+[1.080s] -- Up-to-date: /home/ros2/ros2_rc/src/install/nav2_map_server/share/nav2_map_server/environment/ament_prefix_path.dsv
+[1.080s] -- Up-to-date: /home/ros2/ros2_rc/src/install/nav2_map_server/share/nav2_map_server/environment/path.sh
+[1.080s] -- Up-to-date: /home/ros2/ros2_rc/src/install/nav2_map_server/share/nav2_map_server/environment/path.dsv
+[1.080s] -- Up-to-date: /home/ros2/ros2_rc/src/install/nav2_map_server/share/nav2_map_server/local_setup.bash
+[1.080s] -- Up-to-date: /home/ros2/ros2_rc/src/install/nav2_map_server/share/nav2_map_server/local_setup.sh
+[1.081s] -- Up-to-date: /home/ros2/ros2_rc/src/install/nav2_map_server/share/nav2_map_server/local_setup.zsh
+[1.081s] -- Up-to-date: /home/ros2/ros2_rc/src/install/nav2_map_server/share/nav2_map_server/local_setup.dsv
+[1.081s] -- Installing: /home/ros2/ros2_rc/src/install/nav2_map_server/share/nav2_map_server/package.dsv
+[1.081s] -- Up-to-date: /home/ros2/ros2_rc/src/install/nav2_map_server/share/ament_index/resource_index/packages/nav2_map_server
+[1.081s] -- Up-to-date: /home/ros2/ros2_rc/src/install/nav2_map_server/share/ament_index/resource_index/rclcpp_components/nav2_map_server
+[1.081s] -- Up-to-date: /home/ros2/ros2_rc/src/install/nav2_map_server/share/nav2_map_server/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.081s] -- Up-to-date: /home/ros2/ros2_rc/src/install/nav2_map_server/share/nav2_map_server/cmake/ament_cmake_export_libraries-extras.cmake
+[1.082s] -- Up-to-date: /home/ros2/ros2_rc/src/install/nav2_map_server/share/nav2_map_server/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.082s] -- Up-to-date: /home/ros2/ros2_rc/src/install/nav2_map_server/share/nav2_map_server/cmake/nav2_map_serverConfig.cmake
+[1.082s] -- Up-to-date: /home/ros2/ros2_rc/src/install/nav2_map_server/share/nav2_map_server/cmake/nav2_map_serverConfig-version.cmake
+[1.082s] -- Up-to-date: /home/ros2/ros2_rc/src/install/nav2_map_server/share/nav2_map_server/package.xml
+[1.131s] Invoked command in '/home/ros2/ros2_rc/src/build/nav2_map_server' returned '0': CMAKE_PREFIX_PATH=/home/ros2/ros2_rc/src/install/nav2_util:/home/ros2/ros2_rc/src/install/nav2_msgs:/home/ros2/ros2_rc/src/install/nav2_common:/home/ros2/ros2_rc/src/install/smartcar_msgs:/home/ros2/ros2_rc/src/install/smart_car:/home/ros2/ros2_rc/src/install/ros2_rc:/home/ros2/ros2_rc/src/install/nav_2d_utils:/home/ros2/ros2_rc/src/install/dwb_msgs:/home/ros2/ros2_rc/src/install/nav_2d_msgs:/home/ros2/ros2_rc/src/install/nav2_voxel_grid:/home/ros2/ros2_rc/src/install/nav2_velocity_smoother:/home/ros2/ros2_rc/src/install/nav2_rviz_plugins:/home/ros2/ros2_rc/src/install/nav2_map_server:/home/ros2/ros2_rc/src/install/nav2_lifecycle_manager:/home/ros2/ros2_rc/src/install/nav2_amcl:/home/ros2/ros2_rc/src/install/car_gazebo_plugin:/home/ros2/ros2_rc/src/install/nav2_simple_commander:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/ros2_rc/src/install/nav2_util/lib:/home/ros2/ros2_rc/src/install/nav2_msgs/lib:/home/ros2/ros2_rc/src/install/smartcar_msgs/lib:/home/ros2/ros2_rc/src/install/nav_2d_utils/lib:/home/ros2/ros2_rc/src/install/dwb_msgs/lib:/home/ros2/ros2_rc/src/install/nav_2d_msgs/lib:/home/ros2/ros2_rc/src/install/nav2_voxel_grid/lib:/home/ros2/ros2_rc/src/install/nav2_velocity_smoother/lib:/home/ros2/ros2_rc/src/install/nav2_rviz_plugins/lib:/home/ros2/ros2_rc/src/install/nav2_map_server/lib:/home/ros2/ros2_rc/src/install/nav2_lifecycle_manager/lib:/home/ros2/ros2_rc/src/install/nav2_amcl/lib:/home/ros2/ros2_rc/src/install/car_gazebo_plugin/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/ros2/ros2_rc/src/build/nav2_map_server

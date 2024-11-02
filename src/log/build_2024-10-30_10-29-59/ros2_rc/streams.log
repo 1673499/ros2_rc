@@ -1,0 +1,20 @@
+[0.278s] Invoking command in '/home/ros2/ros2_rc/src/build/ros2_rc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/ros2_rc/src/install/nav2_simple_commander:/home/ros2/ros2_rc/install/nav2_simple_commander:/opt/ros/humble /usr/bin/cmake --build /home/ros2/ros2_rc/src/build/ros2_rc -- -j10 -l10
+[0.784s] Invoked command in '/home/ros2/ros2_rc/src/build/ros2_rc' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/ros2_rc/src/install/nav2_simple_commander:/home/ros2/ros2_rc/install/nav2_simple_commander:/opt/ros/humble /usr/bin/cmake --build /home/ros2/ros2_rc/src/build/ros2_rc -- -j10 -l10
+[1.303s] Invoking command in '/home/ros2/ros2_rc/src/build/ros2_rc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/ros2_rc/src/install/nav2_simple_commander:/home/ros2/ros2_rc/install/nav2_simple_commander:/opt/ros/humble /usr/bin/cmake --install /home/ros2/ros2_rc/src/build/ros2_rc
+[1.624s] -- Install configuration: ""
+[1.624s] -- Up-to-date: /home/ros2/ros2_rc/src/install/ros2_rc/share/ament_index/resource_index/package_run_dependencies/ros2_rc
+[1.624s] -- Up-to-date: /home/ros2/ros2_rc/src/install/ros2_rc/share/ament_index/resource_index/parent_prefix_path/ros2_rc
+[1.624s] -- Up-to-date: /home/ros2/ros2_rc/src/install/ros2_rc/share/ros2_rc/environment/ament_prefix_path.sh
+[1.625s] -- Up-to-date: /home/ros2/ros2_rc/src/install/ros2_rc/share/ros2_rc/environment/ament_prefix_path.dsv
+[1.625s] -- Up-to-date: /home/ros2/ros2_rc/src/install/ros2_rc/share/ros2_rc/environment/path.sh
+[1.625s] -- Up-to-date: /home/ros2/ros2_rc/src/install/ros2_rc/share/ros2_rc/environment/path.dsv
+[1.625s] -- Up-to-date: /home/ros2/ros2_rc/src/install/ros2_rc/share/ros2_rc/local_setup.bash
+[1.625s] -- Up-to-date: /home/ros2/ros2_rc/src/install/ros2_rc/share/ros2_rc/local_setup.sh
+[1.625s] -- Up-to-date: /home/ros2/ros2_rc/src/install/ros2_rc/share/ros2_rc/local_setup.zsh
+[1.625s] -- Up-to-date: /home/ros2/ros2_rc/src/install/ros2_rc/share/ros2_rc/local_setup.dsv
+[1.625s] -- Installing: /home/ros2/ros2_rc/src/install/ros2_rc/share/ros2_rc/package.dsv
+[1.625s] -- Up-to-date: /home/ros2/ros2_rc/src/install/ros2_rc/share/ament_index/resource_index/packages/ros2_rc
+[1.625s] -- Up-to-date: /home/ros2/ros2_rc/src/install/ros2_rc/share/ros2_rc/cmake/ros2_rcConfig.cmake
+[1.625s] -- Up-to-date: /home/ros2/ros2_rc/src/install/ros2_rc/share/ros2_rc/cmake/ros2_rcConfig-version.cmake
+[1.626s] -- Up-to-date: /home/ros2/ros2_rc/src/install/ros2_rc/share/ros2_rc/package.xml
+[1.719s] Invoked command in '/home/ros2/ros2_rc/src/build/ros2_rc' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/ros2_rc/src/install/nav2_simple_commander:/home/ros2/ros2_rc/install/nav2_simple_commander:/opt/ros/humble /usr/bin/cmake --install /home/ros2/ros2_rc/src/build/ros2_rc

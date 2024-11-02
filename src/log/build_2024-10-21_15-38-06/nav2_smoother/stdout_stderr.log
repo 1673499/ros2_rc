@@ -1,0 +1,20 @@
+[35m[1mConsolidate compiler generated dependencies of target savitzky_golay_smoother[0m
+[35m[1mConsolidate compiler generated dependencies of target smoother_server_core[0m
+[35m[1mConsolidate compiler generated dependencies of target simple_smoother[0m
+[35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[ 11%] Built target gtest_main
+[ 22%] Built target savitzky_golay_smoother
+[ 33%] Built target smoother_server_core
+[ 44%] Built target simple_smoother
+[ 55%] Built target gtest
+[ 61%] [32mBuilding CXX object CMakeFiles/smoother_server.dir/src/main.cpp.o[0m
+[35m[1mConsolidate compiler generated dependencies of target test_simple_smoother[0m
+[ 66%] [32mBuilding CXX object test/CMakeFiles/test_savitzky_golay_smoother.dir/test_savitzky_golay_smoother.cpp.o[0m
+[ 72%] [32mBuilding CXX object test/CMakeFiles/test_smoother_server.dir/test_smoother_server.cpp.o[0m
+[ 83%] Built target test_simple_smoother
+[01m[Kg++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [test/CMakeFiles/test_savitzky_golay_smoother.dir/build.make:76: test/CMakeFiles/test_savitzky_golay_smoother.dir/test_savitzky_golay_smoother.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:344: test/CMakeFiles/test_savitzky_golay_smoother.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....

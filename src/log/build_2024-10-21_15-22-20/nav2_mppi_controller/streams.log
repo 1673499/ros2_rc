@@ -1,0 +1,91 @@
+[0.167s] Invoking command in '/home/ros2/ros2_rc/src/build/nav2_mppi_controller': AMENT_PREFIX_PATH=/home/ros2/ros2_rc/src/install/nav2_core:/home/ros2/ros2_rc/src/install/nav2_costmap_2d:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/ros2_rc/src/install/nav2_core:/home/ros2/ros2_rc/src/install/nav2_costmap_2d:/home/ros2/ros2_rc/src/install/nav2_map_server:/home/ros2/ros2_rc/src/install/nav2_lifecycle_manager:/home/ros2/ros2_rc/src/install/nav2_util:/home/ros2/ros2_rc/src/install/nav2_voxel_grid:/home/ros2/ros2_rc/src/install/nav2_msgs:/home/ros2/ros2_rc/src/install/nav2_common:/home/ros2/ros2_rc/src/install/smartcar_msgs:/home/ros2/ros2_rc/src/install/smart_car:/home/ros2/ros2_rc/src/install/ros2_rc:/home/ros2/ros2_rc/src/install/nav_2d_utils:/home/ros2/ros2_rc/src/install/dwb_msgs:/home/ros2/ros2_rc/src/install/nav_2d_msgs:/home/ros2/ros2_rc/src/install/nav2_velocity_smoother:/home/ros2/ros2_rc/src/install/nav2_rviz_plugins:/home/ros2/ros2_rc/src/install/nav2_amcl:/home/ros2/ros2_rc/src/install/car_gazebo_plugin:/home/ros2/ros2_rc/src/install/nav2_simple_commander:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/ros2_rc/src/install/nav2_costmap_2d/lib:/home/ros2/ros2_rc/src/install/nav2_map_server/lib:/home/ros2/ros2_rc/src/install/nav2_lifecycle_manager/lib:/home/ros2/ros2_rc/src/install/nav2_util/lib:/home/ros2/ros2_rc/src/install/nav2_voxel_grid/lib:/home/ros2/ros2_rc/src/install/nav2_msgs/lib:/home/ros2/ros2_rc/src/install/smartcar_msgs/lib:/home/ros2/ros2_rc/src/install/nav_2d_utils/lib:/home/ros2/ros2_rc/src/install/dwb_msgs/lib:/home/ros2/ros2_rc/src/install/nav_2d_msgs/lib:/home/ros2/ros2_rc/src/install/nav2_velocity_smoother/lib:/home/ros2/ros2_rc/src/install/nav2_rviz_plugins/lib:/home/ros2/ros2_rc/src/install/nav2_amcl/lib:/home/ros2/ros2_rc/src/install/car_gazebo_plugin/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake /home/ros2/ros2_rc/src/navigation2/nav2_mppi_controller -DCMAKE_INSTALL_PREFIX=/home/ros2/ros2_rc/src/install/nav2_mppi_controller
+[7.840s] -- The C compiler identification is GNU 11.4.0
+[7.840s] -- The CXX compiler identification is GNU 11.4.0
+[7.840s] -- Detecting C compiler ABI info
+[7.840s] -- Detecting C compiler ABI info - done
+[7.840s] -- Check for working C compiler: /usr/lib/ccache/gcc - skipped
+[7.840s] -- Detecting C compile features
+[7.840s] -- Detecting C compile features - done
+[7.840s] -- Detecting CXX compiler ABI info
+[7.841s] -- Detecting CXX compiler ABI info - done
+[7.841s] -- Check for working CXX compiler: /usr/lib/ccache/g++ - skipped
+[7.841s] -- Detecting CXX compile features
+[7.841s] -- Detecting CXX compile features - done
+[7.841s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[7.841s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[7.841s] -- Performing Test arch_native_supported
+[7.841s] -- Performing Test arch_native_supported - Success
+[7.841s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[7.841s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[7.841s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[7.841s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[7.842s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.842s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.842s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[7.842s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[7.842s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[7.842s] -- Looking for pthread.h
+[7.842s] -- Looking for pthread.h - found
+[7.842s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[7.842s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[7.842s] -- Found Threads: TRUE  
+[7.842s] -- Found nav2_common: 1.1.16 (/home/ros2/ros2_rc/src/install/nav2_common/share/nav2_common/cmake)
+[7.842s] -- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+[7.842s] -- Found tf2: 0.25.8 (/opt/ros/humble/share/tf2/cmake)
+[7.842s] -- Found visualization_msgs: 4.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)
+[7.842s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[7.843s] -- Found nav2_core: 1.1.16 (/home/ros2/ros2_rc/src/install/nav2_core/share/nav2_core/cmake)
+[7.843s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[7.843s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[7.843s] -- Found tf2_eigen: 0.25.8 (/opt/ros/humble/share/tf2_eigen/cmake)
+[7.843s] -- Setting build type to Release as none was specified.
+[7.843s] -- Performing Test COMPILER_SUPPORTS_AVX512
+[8.346s] -- Performing Test COMPILER_SUPPORTS_AVX512 - Success
+[8.349s] -- Performing Test COMPILER_SUPPORTS_SSE4
+[9.269s] -- Performing Test COMPILER_SUPPORTS_SSE4 - Success
+[9.270s] -- Performing Test COMPILER_SUPPORTS_AVX2
+[10.382s] -- Performing Test COMPILER_SUPPORTS_AVX2 - Success
+[10.388s] -- Performing Test COMPILER_SUPPORTS_FMA
+[10.919s] -- Performing Test COMPILER_SUPPORTS_FMA - Success
+[11.682s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[11.716s] -- Found ament_cmake_gtest: 1.3.10 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[12.144s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[13.585s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[13.587s] -- Configured cppcheck include dirs: /home/ros2/ros2_rc/src/navigation2/nav2_mppi_controller/include
+[13.587s] -- Configured cppcheck exclude dirs and/or files: 
+[13.612s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[13.612s] -- Configured cpplint exclude dirs and/or files: 
+[13.617s] -- Added test 'lint_cmake' to check CMake code style
+[13.627s] -- Added test 'uncrustify' to check C / C++ code style
+[13.628s] -- Configured uncrustify additional arguments: 
+[13.635s] -- Added test 'xmllint' to check XML markup files
+[13.636s] -- Configuring done
+[16.197s] -- Generating done
+[16.229s] -- Build files have been written to: /home/ros2/ros2_rc/src/build/nav2_mppi_controller
+[16.504s] Invoked command in '/home/ros2/ros2_rc/src/build/nav2_mppi_controller' returned '0': AMENT_PREFIX_PATH=/home/ros2/ros2_rc/src/install/nav2_core:/home/ros2/ros2_rc/src/install/nav2_costmap_2d:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/ros2_rc/src/install/nav2_core:/home/ros2/ros2_rc/src/install/nav2_costmap_2d:/home/ros2/ros2_rc/src/install/nav2_map_server:/home/ros2/ros2_rc/src/install/nav2_lifecycle_manager:/home/ros2/ros2_rc/src/install/nav2_util:/home/ros2/ros2_rc/src/install/nav2_voxel_grid:/home/ros2/ros2_rc/src/install/nav2_msgs:/home/ros2/ros2_rc/src/install/nav2_common:/home/ros2/ros2_rc/src/install/smartcar_msgs:/home/ros2/ros2_rc/src/install/smart_car:/home/ros2/ros2_rc/src/install/ros2_rc:/home/ros2/ros2_rc/src/install/nav_2d_utils:/home/ros2/ros2_rc/src/install/dwb_msgs:/home/ros2/ros2_rc/src/install/nav_2d_msgs:/home/ros2/ros2_rc/src/install/nav2_velocity_smoother:/home/ros2/ros2_rc/src/install/nav2_rviz_plugins:/home/ros2/ros2_rc/src/install/nav2_amcl:/home/ros2/ros2_rc/src/install/car_gazebo_plugin:/home/ros2/ros2_rc/src/install/nav2_simple_commander:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/ros2_rc/src/install/nav2_costmap_2d/lib:/home/ros2/ros2_rc/src/install/nav2_map_server/lib:/home/ros2/ros2_rc/src/install/nav2_lifecycle_manager/lib:/home/ros2/ros2_rc/src/install/nav2_util/lib:/home/ros2/ros2_rc/src/install/nav2_voxel_grid/lib:/home/ros2/ros2_rc/src/install/nav2_msgs/lib:/home/ros2/ros2_rc/src/install/smartcar_msgs/lib:/home/ros2/ros2_rc/src/install/nav_2d_utils/lib:/home/ros2/ros2_rc/src/install/dwb_msgs/lib:/home/ros2/ros2_rc/src/install/nav_2d_msgs/lib:/home/ros2/ros2_rc/src/install/nav2_velocity_smoother/lib:/home/ros2/ros2_rc/src/install/nav2_rviz_plugins/lib:/home/ros2/ros2_rc/src/install/nav2_amcl/lib:/home/ros2/ros2_rc/src/install/car_gazebo_plugin/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake /home/ros2/ros2_rc/src/navigation2/nav2_mppi_controller -DCMAKE_INSTALL_PREFIX=/home/ros2/ros2_rc/src/install/nav2_mppi_controller
+[16.505s] Invoking command in '/home/ros2/ros2_rc/src/build/nav2_mppi_controller': AMENT_PREFIX_PATH=/home/ros2/ros2_rc/src/install/nav2_core:/home/ros2/ros2_rc/src/install/nav2_costmap_2d:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/ros2_rc/src/install/nav2_core:/home/ros2/ros2_rc/src/install/nav2_costmap_2d:/home/ros2/ros2_rc/src/install/nav2_map_server:/home/ros2/ros2_rc/src/install/nav2_lifecycle_manager:/home/ros2/ros2_rc/src/install/nav2_util:/home/ros2/ros2_rc/src/install/nav2_voxel_grid:/home/ros2/ros2_rc/src/install/nav2_msgs:/home/ros2/ros2_rc/src/install/nav2_common:/home/ros2/ros2_rc/src/install/smartcar_msgs:/home/ros2/ros2_rc/src/install/smart_car:/home/ros2/ros2_rc/src/install/ros2_rc:/home/ros2/ros2_rc/src/install/nav_2d_utils:/home/ros2/ros2_rc/src/install/dwb_msgs:/home/ros2/ros2_rc/src/install/nav_2d_msgs:/home/ros2/ros2_rc/src/install/nav2_velocity_smoother:/home/ros2/ros2_rc/src/install/nav2_rviz_plugins:/home/ros2/ros2_rc/src/install/nav2_amcl:/home/ros2/ros2_rc/src/install/car_gazebo_plugin:/home/ros2/ros2_rc/src/install/nav2_simple_commander:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/ros2_rc/src/install/nav2_costmap_2d/lib:/home/ros2/ros2_rc/src/install/nav2_map_server/lib:/home/ros2/ros2_rc/src/install/nav2_lifecycle_manager/lib:/home/ros2/ros2_rc/src/install/nav2_util/lib:/home/ros2/ros2_rc/src/install/nav2_voxel_grid/lib:/home/ros2/ros2_rc/src/install/nav2_msgs/lib:/home/ros2/ros2_rc/src/install/smartcar_msgs/lib:/home/ros2/ros2_rc/src/install/nav_2d_utils/lib:/home/ros2/ros2_rc/src/install/dwb_msgs/lib:/home/ros2/ros2_rc/src/install/nav_2d_msgs/lib:/home/ros2/ros2_rc/src/install/nav2_velocity_smoother/lib:/home/ros2/ros2_rc/src/install/nav2_rviz_plugins/lib:/home/ros2/ros2_rc/src/install/nav2_amcl/lib:/home/ros2/ros2_rc/src/install/car_gazebo_plugin/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/ros2/ros2_rc/src/build/nav2_mppi_controller -- -j9 -l9
+[61.233s] [  2%] [32mBuilding CXX object CMakeFiles/mppi_controller.dir/src/controller.cpp.o[0m
+[61.244s] [  4%] [32mBuilding CXX object CMakeFiles/mppi_controller.dir/src/parameters_handler.cpp.o[0m
+[64.937s] [  6%] [32mBuilding CXX object CMakeFiles/mppi_controller.dir/src/noise_generator.cpp.o[0m
+[75.609s] [  8%] [32mBuilding CXX object CMakeFiles/mppi_controller.dir/src/path_handler.cpp.o[0m
+[95.850s] [ 10%] [32mBuilding CXX object CMakeFiles/mppi_controller.dir/src/trajectory_visualizer.cpp.o[0m
+[120.656s] [ 12%] [32mBuilding CXX object CMakeFiles/mppi_controller.dir/src/critic_manager.cpp.o[0m
+[150.067s] [ 14%] [32mBuilding CXX object CMakeFiles/mppi_controller.dir/src/optimizer.cpp.o[0m
+[211.743s] [ 16%] [32m[1mLinking CXX shared library libmppi_controller.so[0m
+[213.390s] [ 16%] Built target mppi_controller
+[213.453s] [ 18%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[214.284s] [ 20%] [32m[1mLinking CXX static library libgtest.a[0m
+[214.473s] [ 20%] Built target gtest
+[214.610s] [ 22%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[214.834s] [ 24%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[214.921s] [ 24%] Built target gtest_main
+[214.975s] [ 26%] [32mBuilding CXX object CMakeFiles/mppi_critics.dir/src/critics/obstacles_critic.cpp.o[0m
+[238.085s] [ 28%] [32mBuilding CXX object CMakeFiles/mppi_critics.dir/src/critics/cost_critic.cpp.o[0m
+[240.699s] [ 30%] [32mBuilding CXX object test/CMakeFiles/utils_test.dir/utils_test.cpp.o[0m
+[240.778s] [ 32%] [32mBuilding CXX object test/CMakeFiles/trajectory_visualizer_tests.dir/trajectory_visualizer_tests.cpp.o[0m
+[240.817s] [ 34%] [32mBuilding CXX object test/CMakeFiles/motion_model_tests.dir/motion_model_tests.cpp.o[0m
+[242.004s] [ 36%] [32mBuilding CXX object test/CMakeFiles/noise_generator_test.dir/noise_generator_test.cpp.o[0m
+[242.015s] [ 38%] [32mBuilding CXX object test/CMakeFiles/parameter_handler_test.dir/parameter_handler_test.cpp.o[0m
+[243.127s] [ 40%] [32mBuilding CXX object test/CMakeFiles/models_test.dir/models_test.cpp.o[0m
+[243.254s] [ 42%] [32mBuilding CXX object test/CMakeFiles/controller_state_transition_test.dir/controller_state_transition_test.cpp.o[0m
+[244.766s] [ 44%] [32mBuilding CXX object test/CMakeFiles/optimizer_smoke_test.dir/optimizer_smoke_test.cpp.o[0m

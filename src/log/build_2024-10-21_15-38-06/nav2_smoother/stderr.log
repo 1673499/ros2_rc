@@ -1,0 +1,5 @@
+[01m[Kg++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [test/CMakeFiles/test_savitzky_golay_smoother.dir/build.make:76: test/CMakeFiles/test_savitzky_golay_smoother.dir/test_savitzky_golay_smoother.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:344: test/CMakeFiles/test_savitzky_golay_smoother.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....

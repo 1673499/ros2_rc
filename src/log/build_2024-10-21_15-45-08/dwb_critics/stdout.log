@@ -1,0 +1,8 @@
+[  7%] Built target gtest_main
+[ 14%] Built target gtest
+[ 62%] Built target dwb_critics
+[ 66%] [32mBuilding CXX object test/CMakeFiles/obstacle_footprint_tests.dir/obstacle_footprint_test.cpp.o[0m
+[ 74%] Built target prefer_forward_tests
+[ 77%] [32mBuilding CXX object test/CMakeFiles/base_obstacle_tests.dir/base_obstacle_test.cpp.o[0m
+[ 85%] Built target twirling_tests
+[ 92%] Built target alignment_util_tests
